@@ -7,23 +7,29 @@ from tensorflow.keras.models import load_model
 data = pd.read_csv("Dataset_with_Overcapacity.csv")
 model = load_model("roanne_fnn_model.h5")
 
-# Define columns to drop during scaling
-columns_to_drop = ["Year", "Overcapacity"]
+# Debug: Print column names to ensure correctness
+st.write("Columns in dataset:", data.columns.tolist())
+
+# Define columns to drop
+columns_to_drop = ["Year", "Overcapacity"]  # Update if names differ
 
 # Sidebar layout for navigation
 st.sidebar.title("Hospital Overcapacity Prediction")
 year = st.sidebar.slider("Enter Year to Predict (e.g., 2018 - 2023)", min_value=2018, max_value=2023, value=2023)
 
-# Prepare features for train-test split
-target_column = "Overcapacity"
+# Prepare features and target
+target_column = "Overcapacity"  # Update if column name differs
 X = data.drop(columns=[target_column])
 y = data[target_column]
 
 # Scale features
-scaler = StandardScaler()
-X_scaled = scaler.fit_transform(X.drop(columns=columns_to_drop, axis=1))
+try:
+    X_scaled = StandardScaler().fit_transform(X.drop(columns=columns_to_drop, axis=1))
+except KeyError as e:
+    st.error(f"Column not found: {e}")
+    st.stop()  # Stop execution if columns don't match
 
-# Split train-test data (testing for years 2018-2023)
+# Split train-test data
 train_indices = X["Year"] < 2018
 test_indices = X["Year"] >= 2018
 
@@ -40,7 +46,7 @@ if st.button("Predict for Selected Year"):
     # Prepare year input for prediction
     try:
         year_input = pd.DataFrame({"Year": [year]})
-        year_scaled = scaler.transform(year_input)  # Transform using the same scaler
+        year_scaled = StandardScaler().fit_transform(year_input)  # Transform using the same scaler
         predictions = model.predict(year_scaled)
         predicted_value = predictions[0][0]
 
