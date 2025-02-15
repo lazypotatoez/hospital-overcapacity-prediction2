@@ -22,15 +22,21 @@ else:
 X = data[numeric_columns]
 y = data[target_column] if target_column else None
 X["Year"] = data["Year"]  # Keep the year column for filtering
-X_train = X[X["Year"] < 2018].drop(columns=["Year"])  # Training data before 2018
-X_test = X[X["Year"] >= 2018].drop(columns=["Year"])  # Testing data for 2018–2023
-y_train = y[X["Year"] < 2018]
-y_test = y[X["Year"] >= 2018]
+
+# Use the index of rows where Year is before 2018 for training and after for testing
+train_indices = X["Year"] < 2018
+test_indices = X["Year"] >= 2018
+
+X_train = X[train_indices].drop(columns=["Year"])  # Training data before 2018
+X_test = X[test_indices].drop(columns=["Year"])    # Testing data for 2018–2023
+y_train = y[train_indices]
+y_test = y[test_indices]
 
 # Scale the data
 scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
+
 
 # Load the trained model
 model = load_model("roanne_fnn_model.h5")
