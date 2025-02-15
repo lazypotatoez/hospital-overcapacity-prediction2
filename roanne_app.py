@@ -4,84 +4,73 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler
 from tensorflow.keras.models import load_model
 
-# Load dataset
+# Load dataset and model
 data = pd.read_csv("Dataset_with_Overcapacity.csv")
-st.write("Columns in dataset:", list(data.columns))
+model = load_model("roanne_fnn_model.h5")
 
-# Define target column and columns to drop
-target_column = "Overcapacity"  # Update based on your dataset
-columns_to_drop = ["Year", target_column]
+# Define columns to drop and target column
+columns_to_drop = ["Year", "Admission Type", "Service Type", "Facility Type"]
+target_column = "Overcapacity"
 
-# Separate features and target
-X = data.drop(columns=[target_column])
+# Remove non-numeric columns and prepare features/labels
+X = data.drop(columns=columns_to_drop + [target_column], axis=1)
 y = data[target_column].reset_index(drop=True)
 
-# Encode categorical data
-X_encoded = pd.get_dummies(X, drop_first=True)
-
-# Split training and testing data
+# Split into train/test sets
 train_data = data[data["Year"] < 2018]
 test_data = data[data["Year"] >= 2018]
 
-X_train = train_data.drop(columns=columns_to_drop)
+X_train = train_data.drop(columns=columns_to_drop + [target_column], axis=1)
 y_train = train_data[target_column]
 
-X_test = test_data.drop(columns=columns_to_drop)
+X_test = test_data.drop(columns=columns_to_drop + [target_column], axis=1)
 y_test = test_data[target_column]
 
-# Encode training and test sets
-X_train_encoded = pd.get_dummies(X_train, drop_first=True)
-X_test_encoded = pd.get_dummies(X_test, drop_first=True)
-
-# Align columns in test set to match the training set
-X_test_encoded = X_test_encoded.reindex(columns=X_train_encoded.columns, fill_value=0)
-
-# Scale the data
+# Scale the features
 scaler = StandardScaler()
-X_train_scaled = scaler.fit_transform(X_train_encoded)
-X_test_scaled = scaler.transform(X_test_encoded)
+X_train_scaled = scaler.fit_transform(X_train)
+X_test_scaled = scaler.transform(X_test)
 
-# Load the model
-model = load_model("roanne_fnn_model.h5")
-
-# Sidebar for user interaction
+# Streamlit app
+st.title("Hospital Overcapacity Prediction")
 st.sidebar.title("Hospital Overcapacity Prediction")
-selected_year = st.sidebar.number_input("Enter Year to Predict (e.g., 2025)", min_value=2006, max_value=2023, step=1)
 
-if st.sidebar.button("Predict for Selected Year"):
+# Display dataset columns
+st.sidebar.subheader("Columns in dataset:")
+st.sidebar.write(data.columns.tolist())
+
+# Input for year prediction
+year_input = st.number_input("Enter Year to Predict (e.g., 2025)", min_value=2006, max_value=2023, step=1)
+if st.button("Predict for Selected Year"):
     try:
-        # Extract features for the selected year
-        year_data = X_encoded[X_encoded["Year"] == selected_year]
-        year_scaled = scaler.transform(year_data)
-        predictions = model.predict(year_scaled)
+        # Filter data for the selected year
+        year_data = data[data["Year"] == year_input]
+        if year_data.empty:
+            st.error("No data available for the selected year.")
+        else:
+            # Prepare features for the model
+            year_features = year_data.drop(columns=columns_to_drop + [target_column], axis=1)
+            year_scaled = scaler.transform(year_features)
 
-        # Display results
-        st.subheader(f"Prediction for {selected_year}")
-        results = pd.DataFrame({
-            "Actual": y[X_encoded["Year"] == selected_year],
-            "Predicted": predictions.flatten()
-        })
-        st.write(results)
+            # Make predictions
+            predictions = model.predict(year_scaled)
+            year_data["Predicted Overcapacity"] = predictions
+
+            # Show predictions
+            st.subheader("Predictions for the Selected Year")
+            st.write(year_data[["Year", "Predicted Overcapacity"]])
     except Exception as e:
         st.error(f"Error in processing input: {e}")
 
-# Test set evaluation
-if st.sidebar.button("Show Test Set Evaluation"):
+# Button to show test set evaluation
+if st.button("Show Test Set Evaluation"):
     try:
-        y_test_pred = model.predict(X_test_scaled)
-        st.subheader("Test Set Evaluation")
-        test_results = pd.DataFrame({
-            "Year": test_data["Year"].values,
-            "Actual": y_test.values,
-            "Predicted": y_test_pred.flatten()
-        })
-        st.write(test_results)
-
-        # Additional metrics
-        from sklearn.metrics import mean_squared_error, mean_absolute_error
-        mse = mean_squared_error(y_test, y_test_pred)
-        mae = mean_absolute_error(y_test, y_test_pred)
-        st.write(f"Mean Squared Error: {mse:.4f}")
-        st.write(f"Mean Absolute Error: {mae:.4f}")
+        # Evaluate on test data
+        test_predictions = model.predict(X_test_scaled)
+        test_results = pd.DataFrame({"Actual": y_test.values, "Predicted": test_predictions.flatten()})
+        
+        # Display results
+        st.subheader("Test Set Evaluation Results")
+        st.write(test_results.head(10))
     except Exception as e:
         st.error(f"Error during test set evaluation: {e}")
