@@ -7,19 +7,19 @@ from tensorflow.keras.models import load_model
 data = pd.read_csv("Dataset_with_Overcapacity.csv")
 model = load_model("roanne_fnn_model.h5")
 
-# Debug: Print column names to ensure correctness
+# Debug: Show column names in dataset
 st.write("Columns in dataset:", data.columns.tolist())
 
-# Define columns to drop
-columns_to_drop = ["Year", "Overcapacity"]  # Update if names differ
+# Define target and features
+target_column = "Overcapacity"  # Confirmed column name
+columns_to_drop = ["Year"]  # Do not drop "Overcapacity" here
 
 # Sidebar layout for navigation
 st.sidebar.title("Hospital Overcapacity Prediction")
 year = st.sidebar.slider("Enter Year to Predict (e.g., 2018 - 2023)", min_value=2018, max_value=2023, value=2023)
 
 # Prepare features and target
-target_column = "Overcapacity"  # Update if column name differs
-X = data.drop(columns=[target_column])
+X = data.drop(columns=[target_column])  # Drop target column for features
 y = data[target_column]
 
 # Scale features
