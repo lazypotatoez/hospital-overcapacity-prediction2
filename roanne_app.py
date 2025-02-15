@@ -14,8 +14,11 @@ data = pd.read_csv("Final_Merged_Dataset.csv")
 columns_to_drop = ["Year", "Overcapacity"]
 columns_to_drop = [col for col in columns_to_drop if col in data.columns]
 
+# Select only numeric columns for scaling
+numeric_columns = data.drop(columns=columns_to_drop, axis=1).select_dtypes(include=[np.number]).columns
+
 scaler = StandardScaler()
-scaler.fit(data.drop(columns=columns_to_drop, axis=1))  # Fit scaler without non-numeric columns
+scaler.fit(data[numeric_columns])  # Fit scaler only on numeric columns
 
 # Sidebar layout for navigation
 st.sidebar.title("Hospital Overcapacity Prediction")
