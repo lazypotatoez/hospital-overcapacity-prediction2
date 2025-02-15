@@ -11,32 +11,42 @@ model = load_model("roanne_fnn_model.h5")
 st.write("Columns in dataset:", data.columns.tolist())
 
 # Define target and features
-target_column = "Overcapacity"  # Confirmed column name
-columns_to_drop = ["Year"]  # Do not drop "Overcapacity" here
+target_column = "Overcapacity"
+columns_to_drop = ["Year"]  # Ensure "Overcapacity" is not dropped here
+
+# Drop rows with missing values and ensure all columns are numeric before scaling
+data = data.dropna()
+numeric_columns = data.select_dtypes(include=["number"]).columns.tolist()
+
+# Ensure that only numeric columns are passed to the scaler
+try:
+    X = data.drop(columns=[target_column])  # Drop target column for features
+    y = data[target_column]
+
+    X_scaled = StandardScaler().fit_transform(X[numeric_columns])
+except KeyError as e:
+    st.error(f"Key error: {e}. Ensure target and numeric columns are correct.")
+    st.stop()
+except ValueError as e:
+    st.error(f"Value error during scaling: {e}. Check for non-numeric or missing data.")
+    st.stop()
 
 # Sidebar layout for navigation
 st.sidebar.title("Hospital Overcapacity Prediction")
 year = st.sidebar.slider("Enter Year to Predict (e.g., 2018 - 2023)", min_value=2018, max_value=2023, value=2023)
 
-# Prepare features and target
-X = data.drop(columns=[target_column])  # Drop target column for features
-y = data[target_column]
-
-# Scale features
-try:
-    X_scaled = StandardScaler().fit_transform(X.drop(columns=columns_to_drop, axis=1))
-except KeyError as e:
-    st.error(f"Column not found: {e}")
-    st.stop()  # Stop execution if columns don't match
-
 # Split train-test data
-train_indices = X["Year"] < 2018
-test_indices = X["Year"] >= 2018
+try:
+    train_indices = data["Year"] < 2018
+    test_indices = data["Year"] >= 2018
 
-X_train = X_scaled[train_indices]
-X_test = X_scaled[test_indices]
-y_train = y[train_indices]
-y_test = y[test_indices]
+    X_train = X_scaled[train_indices]
+    X_test = X_scaled[test_indices]
+    y_train = y[train_indices]
+    y_test = y[test_indices]
+except KeyError as e:
+    st.error(f"Error in data splitting: {e}")
+    st.stop()
 
 # Main page layout
 st.title("Hospital Overcapacity Prediction")
@@ -58,16 +68,19 @@ if st.button("Predict for Selected Year"):
 
 if st.button("Show Test Set Evaluation"):
     # Predict on the test set
-    y_test_predictions = (model.predict(X_test) > 0.5).astype(int)
+    try:
+        y_test_predictions = (model.predict(X_test) > 0.5).astype(int)
 
-    # Display actual vs predicted
-    results = pd.DataFrame({
-        "Actual": y_test.values,
-        "Predicted": y_test_predictions.flatten()
-    })
-    st.write("Test Set Evaluation")
-    st.dataframe(results)
+        # Display actual vs predicted
+        results = pd.DataFrame({
+            "Actual": y_test.values,
+            "Predicted": y_test_predictions.flatten()
+        })
+        st.write("Test Set Evaluation")
+        st.dataframe(results)
 
-    # Calculate and display metrics
-    accuracy = (results["Actual"] == results["Predicted"]).mean()
-    st.write(f"Test Set Accuracy: {accuracy:.2%}")
+        # Calculate and display metrics
+        accuracy = (results["Actual"] == results["Predicted"]).mean()
+        st.write(f"Test Set Accuracy: {accuracy:.2%}")
+    except Exception as e:
+        st.error(f"Error during test set evaluation: {e}")
