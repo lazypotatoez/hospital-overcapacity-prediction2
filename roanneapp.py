@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from tensorflow.keras.models import load_model
+from sklearn.compose import ColumnTransformer
+from sklearn.preprocessing import OneHotEncoder
 from sklearn.metrics import classification_report, confusion_matrix
 
 # Title of the app
@@ -15,6 +17,18 @@ except Exception as e:
     st.error(f"Error loading the model: {e}")
     st.stop()
 
+# Define the expected columns and preprocessing pipeline
+categorical_columns = ['Admission Type', 'Service Type', 'Facility Type']
+numeric_columns = ['Admissions', 'Hospital Admissions', 'Number of Beds']
+
+# Define preprocessing pipeline
+preprocessor = ColumnTransformer(
+    transformers=[
+        ('cat', OneHotEncoder(), categorical_columns),  # One-hot encode categorical columns
+        ('num', 'passthrough', numeric_columns)         # Keep numeric columns as-is
+    ]
+)
+
 # Upload dataset
 uploaded_file = st.file_uploader("Upload a Test Dataset (CSV)", type=["csv"])
 if uploaded_file is not None:
@@ -24,24 +38,18 @@ if uploaded_file is not None:
         st.write("Uploaded Dataset:")
         st.write(test_data.head())
 
-        # Ensure numeric data
-        test_data = test_data.apply(pd.to_numeric, errors='coerce')  # Convert all columns to numeric
-        test_data = test_data.fillna(0)  # Handle missing values
-
-        # Define expected columns based on training
-        expected_columns = ['Admissions', 'Hospital Admissions', 'Number of Beds', 
-                            'Admission Type', 'Service Type', 'Facility Type']
-
-        # Ensure test data has only the expected features
+        # Check for missing columns
+        expected_columns = categorical_columns + numeric_columns
         missing_columns = [col for col in expected_columns if col not in test_data.columns]
         if missing_columns:
-            st.error(f"The following required columns are missing in the uploaded file: {missing_columns}")
+            st.error(f"The following required columns are missing: {missing_columns}")
             st.stop()
 
-        test_data = test_data[expected_columns]
+        # Apply preprocessing
+        test_data_transformed = preprocessor.fit_transform(test_data)  # Transform test data
 
-        # Prepare the input for the LSTM model (3D format)
-        X_test = np.expand_dims(test_data.values, axis=1)
+        # Ensure correct format for LSTM input (3D)
+        X_test = np.expand_dims(test_data_transformed, axis=1)  # Convert to 3D for LSTM
 
         # Predict with the model
         predictions = model.predict(X_test)
@@ -51,7 +59,7 @@ if uploaded_file is not None:
         st.subheader("Predictions:")
         st.write(predicted_labels)
 
-        # Optionally check if 'Overcapacity' is included in the file for evaluation
+        # Optionally check if 'Overcapacity' exists in the file for evaluation
         if 'Overcapacity' in test_data.columns:
             y_test = test_data['Overcapacity'].values  # Ground truth labels
             st.subheader("Performance Metrics:")
