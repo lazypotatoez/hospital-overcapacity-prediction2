@@ -1,7 +1,46 @@
+import streamlit as st
+import pandas as pd
+import numpy as np
+import plotly.graph_objects as go
 from sklearn.ensemble import RandomForestClassifier  # Example model
-import joblib  # For loading the pre-trained model
+import joblib  # For loading pre-trained models
 
-# Add this function to load your pre-trained model
+
+def create_sample_data():
+    """Create sample data for demonstration"""
+    # Generate dates from 2019 to 2023
+    dates = pd.date_range(start='2019-01-01', end='2023-12-31', freq='M')
+
+    # Create base data
+    np.random.seed(42)  # For reproducibility
+    data = pd.DataFrame({
+        'Date': dates,
+        'Actual_Capacity': np.random.normal(75, 15, len(dates)),  # Mean of 75% with some variation
+        'Year': dates.year,
+        'Month': dates.month_name()
+    })
+
+    # Add some seasonal patterns
+    data['Actual_Capacity'] += np.sin(data.index * 2 * np.pi / 12) * 5
+
+    # Add trend (slight increase over time)
+    data['Actual_Capacity'] += data.index * 0.03
+
+    # Add predicted values with some deviation from actual
+    data['Predicted_Capacity'] = data['Actual_Capacity'] + np.random.normal(0, 5, len(dates))
+
+    # Ensure values are between 0 and 100
+    data['Actual_Capacity'] = data['Actual_Capacity'].clip(0, 100)
+    data['Predicted_Capacity'] = data['Predicted_Capacity'].clip(0, 100)
+
+    # Add overcapacity flags
+    threshold = 80
+    data['Actual_Overcapacity'] = data['Actual_Capacity'] > threshold
+    data['Predicted_Overcapacity'] = data['Predicted_Capacity'] > threshold
+
+    return data
+
+
 def load_trained_model():
     """Load the trained model."""
     try:
@@ -11,9 +50,21 @@ def load_trained_model():
         st.error("Model file not found. Please ensure the model is in the correct location.")
         return None
 
-# Modify your main function to include testing CSV upload and prediction
+
+def predict_capacity(model, input_data):
+    """Make predictions using the model"""
+    try:
+        # Select relevant features
+        features = input_data[['Admissions', 'Number of Beds', 'Admissions per Bed']]
+        predictions = model.predict(features)
+        return predictions
+    except Exception as e:
+        st.error(f"Error during prediction: {e}")
+        return None
+
+
 def main():
-    st.title("🏥 Hospital Capacity Prediction")
+    st.title("Hospital Capacity Prediction")
     st.markdown("Analyzing historical hospital capacity trends and predictions")
 
     # Create sample data
@@ -142,11 +193,6 @@ def main():
         st.metric("Average Predicted Capacity", f"{avg_predicted:.1f}%")
         st.metric("Days Over Capacity (Actual)", int(overcapacity_days_actual))
         st.metric("Days Over Capacity (Predicted)", int(overcapacity_days_predicted))
-
-        # Prediction Accuracy
-        accuracy = (filtered_data['Actual_Overcapacity'] == \
-                   filtered_data['Predicted_Overcapacity']).mean() * 100
-        st.metric("Model Accuracy", f"{accuracy:.1f}%")
 
     # Monthly Analysis
     st.subheader("Monthly Average Capacity")
