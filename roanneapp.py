@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from tensorflow.keras.models import load_model
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler, LabelEncoder
 import tensorflow as tf
 
 # Set page config
@@ -12,26 +12,51 @@ st.set_page_config(
     layout="wide"
 )
 
-# Function to load and preprocess data
+# Function to preprocess data
 def preprocess_data(df):
-    """Preprocess the input data similar to training pipeline"""
-    # Add your preprocessing steps here based on your training pipeline
-    # For example:
-    numeric_columns = df.select_dtypes(include=['float64', 'int64']).columns
+    """Preprocess the input data to match training pipeline"""
+    # Create a copy of the dataframe
+    processed_df = df.copy()
+    
+    # Convert 'Admissions per Bed' to numeric, removing any text after the number
+    processed_df['Admissions per Bed'] = pd.to_numeric(
+        processed_df['Admissions per Bed'].astype(str).str.extract('(\d+\.?\d*)')[0]
+    )
+    
+    # Label encode categorical columns
+    categorical_columns = ['Admission Type', 'Service Type', 'Facility Type']
+    label_encoders = {}
+    
+    for column in categorical_columns:
+        if column in processed_df.columns:
+            label_encoders[column] = LabelEncoder()
+            processed_df[column] = label_encoders[column].fit_transform(processed_df[column])
+    
+    # Convert numeric columns to float
+    numeric_columns = ['Admissions', 'Hospital Admissions', 'Number of Beds', 'Admissions per Bed']
+    for column in numeric_columns:
+        if column in processed_df.columns:
+            processed_df[column] = pd.to_numeric(processed_df[column], errors='coerce')
+    
+    # Scale numeric features
     scaler = StandardScaler()
-    df[numeric_columns] = scaler.fit_transform(df[numeric_columns])
-    return df
+    processed_df[numeric_columns] = scaler.fit_transform(processed_df[numeric_columns])
+    
+    # Reshape data for LSTM (samples, timesteps, features)
+    n_features = processed_df.shape[1]
+    n_timesteps = 1  # Adjust based on your model's input shape
+    reshaped_data = processed_df.values.reshape(-1, n_timesteps, n_features)
+    
+    return reshaped_data
 
-# Function to make predictions
 def predict_overcapacity(model, features):
     """Make predictions using the loaded model"""
     predictions = model.predict(features)
-    # Convert predictions to binary (0 or 1) based on threshold
-    binary_predictions = (predictions > 0.5).astype(int)
-    return binary_predictions
+    # Get the predicted class (0 or 1)
+    predicted_classes = np.argmax(predictions, axis=1)
+    return predicted_classes
 
 def main():
-    # Title and description
     st.title("🏥 Hospital Overcapacity Prediction System")
     st.markdown("""
     This application predicts hospital overcapacity based on historical data and current metrics.
@@ -52,14 +77,14 @@ def main():
 
     if uploaded_file is not None:
         try:
-            # Load and preprocess data
+            # Load data
             test_data = pd.read_csv(uploaded_file)
             st.subheader("Input Data Preview")
             st.dataframe(test_data.head())
 
             # Preprocess the data
             processed_data = preprocess_data(test_data)
-
+            
             # Make predictions
             predictions = predict_overcapacity(model, processed_data)
 
@@ -67,7 +92,10 @@ def main():
             st.subheader("Predictions")
             results_df = test_data.copy()
             results_df['Predicted_Overcapacity'] = predictions
-            results_df['Predicted_Status'] = results_df['Predicted_Overcapacity'].map({0: 'No Overcapacity', 1: 'Overcapacity'})
+            results_df['Predicted_Status'] = results_df['Predicted_Overcapacity'].map({
+                0: 'No Overcapacity',
+                1: 'Overcapacity'
+            })
 
             # Display metrics
             col1, col2 = st.columns(2)
@@ -92,6 +120,7 @@ def main():
 
         except Exception as e:
             st.error(f"Error processing data: {str(e)}")
+            st.write("Detailed error:", str(e))
             st.write("Please ensure your input data matches the expected format.")
 
     else:
