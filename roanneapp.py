@@ -203,3 +203,4 @@ def main():
     st.plotly_chart(seasonal_fig, use_container_width=True)
 
 if __name__ == "__main__":
+    main()
