@@ -1,0 +1,961 @@
+Admission Type,Admissions,Service Type,Hospital Admissions,Facility Type,Number of Beds,Admissions per Bed
+Public Sector Hospital Admissions,493173,Acute Hospitals Admissions,618136,Acute Hospitals,11321,43.56267114212525
+Public Sector Hospital Admissions,493173,Acute Hospitals Admissions,618136,Psychiatric Hospitals,1950,252.9092307692308
+Public Sector Hospital Admissions,493173,Acute Hospitals Admissions,618136,Community Hospitals,1986,248.32477341389728
+Public Sector Hospital Admissions,493173,Acute Hospitals Admissions,618136,Nursing Homes,16059,30.71006912011956
+Public Sector Hospital Admissions,493173,Psychiatric Hospitals Admissions,9234,Acute Hospitals,11321,43.56267114212525
+Public Sector Hospital Admissions,493173,Psychiatric Hospitals Admissions,9234,Psychiatric Hospitals,1950,252.9092307692308
+Public Sector Hospital Admissions,493173,Psychiatric Hospitals Admissions,9234,Community Hospitals,1986,248.32477341389728
+Public Sector Hospital Admissions,493173,Psychiatric Hospitals Admissions,9234,Nursing Homes,16059,30.71006912011956
+Public Sector Hospital Admissions,493173,Community Hospitals Admissions,20043,Acute Hospitals,11321,43.56267114212525
+Public Sector Hospital Admissions,493173,Community Hospitals Admissions,20043,Psychiatric Hospitals,1950,252.9092307692308
+Public Sector Hospital Admissions,493173,Community Hospitals Admissions,20043,Community Hospitals,1986,248.32477341389728
+Public Sector Hospital Admissions,493173,Community Hospitals Admissions,20043,Nursing Homes,16059,30.71006912011956
+Public Sector Hospital Admissions,493173,Specialist Outpatient Clinics,5285968,Acute Hospitals,11321,43.56267114212525
+Public Sector Hospital Admissions,493173,Specialist Outpatient Clinics,5285968,Psychiatric Hospitals,1950,252.9092307692308
+Public Sector Hospital Admissions,493173,Specialist Outpatient Clinics,5285968,Community Hospitals,1986,248.32477341389728
+Public Sector Hospital Admissions,493173,Specialist Outpatient Clinics,5285968,Nursing Homes,16059,30.71006912011956
+Public Sector Hospital Admissions,493173,Accident & Emergency Departments,1080296,Acute Hospitals,11321,43.56267114212525
+Public Sector Hospital Admissions,493173,Accident & Emergency Departments,1080296,Psychiatric Hospitals,1950,252.9092307692308
+Public Sector Hospital Admissions,493173,Accident & Emergency Departments,1080296,Community Hospitals,1986,248.32477341389728
+Public Sector Hospital Admissions,493173,Accident & Emergency Departments,1080296,Nursing Homes,16059,30.71006912011956
+Public Sector Hospital Admissions,493173,Polyclinics,6691295,Acute Hospitals,11321,43.56267114212525
+Public Sector Hospital Admissions,493173,Polyclinics,6691295,Psychiatric Hospitals,1950,252.9092307692308
+Public Sector Hospital Admissions,493173,Polyclinics,6691295,Community Hospitals,1986,248.32477341389728
+Public Sector Hospital Admissions,493173,Polyclinics,6691295,Nursing Homes,16059,30.71006912011956
+Public Sector Hospital Admissions,493173,Dental Clinics,1070808,Acute Hospitals,11321,43.56267114212525
+Public Sector Hospital Admissions,493173,Dental Clinics,1070808,Psychiatric Hospitals,1950,252.9092307692308
+Public Sector Hospital Admissions,493173,Dental Clinics,1070808,Community Hospitals,1986,248.32477341389728
+Public Sector Hospital Admissions,493173,Dental Clinics,1070808,Nursing Homes,16059,30.71006912011956
+Public Sector Hospital Admissions,493173,Day Surgeries,376136,Acute Hospitals,11321,43.56267114212525
+Public Sector Hospital Admissions,493173,Day Surgeries,376136,Psychiatric Hospitals,1950,252.9092307692308
+Public Sector Hospital Admissions,493173,Day Surgeries,376136,Community Hospitals,1986,248.32477341389728
+Public Sector Hospital Admissions,493173,Day Surgeries,376136,Nursing Homes,16059,30.71006912011956
+    National University Hospital,70822,Acute Hospitals Admissions,618136,Acute Hospitals,11321,6.255807790831199
+    National University Hospital,70822,Acute Hospitals Admissions,618136,Psychiatric Hospitals,1950,36.31897435897436
+    National University Hospital,70822,Acute Hospitals Admissions,618136,Community Hospitals,1986,35.66062437059416
+    National University Hospital,70822,Acute Hospitals Admissions,618136,Nursing Homes,16059,4.410112709384146
+    National University Hospital,70822,Psychiatric Hospitals Admissions,9234,Acute Hospitals,11321,6.255807790831199
+    National University Hospital,70822,Psychiatric Hospitals Admissions,9234,Psychiatric Hospitals,1950,36.31897435897436
+    National University Hospital,70822,Psychiatric Hospitals Admissions,9234,Community Hospitals,1986,35.66062437059416
+    National University Hospital,70822,Psychiatric Hospitals Admissions,9234,Nursing Homes,16059,4.410112709384146
+    National University Hospital,70822,Community Hospitals Admissions,20043,Acute Hospitals,11321,6.255807790831199
+    National University Hospital,70822,Community Hospitals Admissions,20043,Psychiatric Hospitals,1950,36.31897435897436
+    National University Hospital,70822,Community Hospitals Admissions,20043,Community Hospitals,1986,35.66062437059416
+    National University Hospital,70822,Community Hospitals Admissions,20043,Nursing Homes,16059,4.410112709384146
+    National University Hospital,70822,Specialist Outpatient Clinics,5285968,Acute Hospitals,11321,6.255807790831199
+    National University Hospital,70822,Specialist Outpatient Clinics,5285968,Psychiatric Hospitals,1950,36.31897435897436
+    National University Hospital,70822,Specialist Outpatient Clinics,5285968,Community Hospitals,1986,35.66062437059416
+    National University Hospital,70822,Specialist Outpatient Clinics,5285968,Nursing Homes,16059,4.410112709384146
+    National University Hospital,70822,Accident & Emergency Departments,1080296,Acute Hospitals,11321,6.255807790831199
+    National University Hospital,70822,Accident & Emergency Departments,1080296,Psychiatric Hospitals,1950,36.31897435897436
+    National University Hospital,70822,Accident & Emergency Departments,1080296,Community Hospitals,1986,35.66062437059416
+    National University Hospital,70822,Accident & Emergency Departments,1080296,Nursing Homes,16059,4.410112709384146
+    National University Hospital,70822,Polyclinics,6691295,Acute Hospitals,11321,6.255807790831199
+    National University Hospital,70822,Polyclinics,6691295,Psychiatric Hospitals,1950,36.31897435897436
+    National University Hospital,70822,Polyclinics,6691295,Community Hospitals,1986,35.66062437059416
+    National University Hospital,70822,Polyclinics,6691295,Nursing Homes,16059,4.410112709384146
+    National University Hospital,70822,Dental Clinics,1070808,Acute Hospitals,11321,6.255807790831199
+    National University Hospital,70822,Dental Clinics,1070808,Psychiatric Hospitals,1950,36.31897435897436
+    National University Hospital,70822,Dental Clinics,1070808,Community Hospitals,1986,35.66062437059416
+    National University Hospital,70822,Dental Clinics,1070808,Nursing Homes,16059,4.410112709384146
+    National University Hospital,70822,Day Surgeries,376136,Acute Hospitals,11321,6.255807790831199
+    National University Hospital,70822,Day Surgeries,376136,Psychiatric Hospitals,1950,36.31897435897436
+    National University Hospital,70822,Day Surgeries,376136,Community Hospitals,1986,35.66062437059416
+    National University Hospital,70822,Day Surgeries,376136,Nursing Homes,16059,4.410112709384146
+    Singapore General Hospital,81675,Acute Hospitals Admissions,618136,Acute Hospitals,11321,7.214468686511792
+    Singapore General Hospital,81675,Acute Hospitals Admissions,618136,Psychiatric Hospitals,1950,41.88461538461539
+    Singapore General Hospital,81675,Acute Hospitals Admissions,618136,Community Hospitals,1986,41.12537764350453
+    Singapore General Hospital,81675,Acute Hospitals Admissions,618136,Nursing Homes,16059,5.085933121614048
+    Singapore General Hospital,81675,Psychiatric Hospitals Admissions,9234,Acute Hospitals,11321,7.214468686511792
+    Singapore General Hospital,81675,Psychiatric Hospitals Admissions,9234,Psychiatric Hospitals,1950,41.88461538461539
+    Singapore General Hospital,81675,Psychiatric Hospitals Admissions,9234,Community Hospitals,1986,41.12537764350453
+    Singapore General Hospital,81675,Psychiatric Hospitals Admissions,9234,Nursing Homes,16059,5.085933121614048
+    Singapore General Hospital,81675,Community Hospitals Admissions,20043,Acute Hospitals,11321,7.214468686511792
+    Singapore General Hospital,81675,Community Hospitals Admissions,20043,Psychiatric Hospitals,1950,41.88461538461539
+    Singapore General Hospital,81675,Community Hospitals Admissions,20043,Community Hospitals,1986,41.12537764350453
+    Singapore General Hospital,81675,Community Hospitals Admissions,20043,Nursing Homes,16059,5.085933121614048
+    Singapore General Hospital,81675,Specialist Outpatient Clinics,5285968,Acute Hospitals,11321,7.214468686511792
+    Singapore General Hospital,81675,Specialist Outpatient Clinics,5285968,Psychiatric Hospitals,1950,41.88461538461539
+    Singapore General Hospital,81675,Specialist Outpatient Clinics,5285968,Community Hospitals,1986,41.12537764350453
+    Singapore General Hospital,81675,Specialist Outpatient Clinics,5285968,Nursing Homes,16059,5.085933121614048
+    Singapore General Hospital,81675,Accident & Emergency Departments,1080296,Acute Hospitals,11321,7.214468686511792
+    Singapore General Hospital,81675,Accident & Emergency Departments,1080296,Psychiatric Hospitals,1950,41.88461538461539
+    Singapore General Hospital,81675,Accident & Emergency Departments,1080296,Community Hospitals,1986,41.12537764350453
+    Singapore General Hospital,81675,Accident & Emergency Departments,1080296,Nursing Homes,16059,5.085933121614048
+    Singapore General Hospital,81675,Polyclinics,6691295,Acute Hospitals,11321,7.214468686511792
+    Singapore General Hospital,81675,Polyclinics,6691295,Psychiatric Hospitals,1950,41.88461538461539
+    Singapore General Hospital,81675,Polyclinics,6691295,Community Hospitals,1986,41.12537764350453
+    Singapore General Hospital,81675,Polyclinics,6691295,Nursing Homes,16059,5.085933121614048
+    Singapore General Hospital,81675,Dental Clinics,1070808,Acute Hospitals,11321,7.214468686511792
+    Singapore General Hospital,81675,Dental Clinics,1070808,Psychiatric Hospitals,1950,41.88461538461539
+    Singapore General Hospital,81675,Dental Clinics,1070808,Community Hospitals,1986,41.12537764350453
+    Singapore General Hospital,81675,Dental Clinics,1070808,Nursing Homes,16059,5.085933121614048
+    Singapore General Hospital,81675,Day Surgeries,376136,Acute Hospitals,11321,7.214468686511792
+    Singapore General Hospital,81675,Day Surgeries,376136,Psychiatric Hospitals,1950,41.88461538461539
+    Singapore General Hospital,81675,Day Surgeries,376136,Community Hospitals,1986,41.12537764350453
+    Singapore General Hospital,81675,Day Surgeries,376136,Nursing Homes,16059,5.085933121614048
+    Tan Tock Seng Hospital,59935,Acute Hospitals Admissions,618136,Acute Hospitals,11321,5.294143626888084
+    Tan Tock Seng Hospital,59935,Acute Hospitals Admissions,618136,Psychiatric Hospitals,1950,30.735897435897435
+    Tan Tock Seng Hospital,59935,Acute Hospitals Admissions,618136,Community Hospitals,1986,30.178751258811683
+    Tan Tock Seng Hospital,59935,Acute Hospitals Admissions,618136,Nursing Homes,16059,3.732175104302883
+    Tan Tock Seng Hospital,59935,Psychiatric Hospitals Admissions,9234,Acute Hospitals,11321,5.294143626888084
+    Tan Tock Seng Hospital,59935,Psychiatric Hospitals Admissions,9234,Psychiatric Hospitals,1950,30.735897435897435
+    Tan Tock Seng Hospital,59935,Psychiatric Hospitals Admissions,9234,Community Hospitals,1986,30.178751258811683
+    Tan Tock Seng Hospital,59935,Psychiatric Hospitals Admissions,9234,Nursing Homes,16059,3.732175104302883
+    Tan Tock Seng Hospital,59935,Community Hospitals Admissions,20043,Acute Hospitals,11321,5.294143626888084
+    Tan Tock Seng Hospital,59935,Community Hospitals Admissions,20043,Psychiatric Hospitals,1950,30.735897435897435
+    Tan Tock Seng Hospital,59935,Community Hospitals Admissions,20043,Community Hospitals,1986,30.178751258811683
+    Tan Tock Seng Hospital,59935,Community Hospitals Admissions,20043,Nursing Homes,16059,3.732175104302883
+    Tan Tock Seng Hospital,59935,Specialist Outpatient Clinics,5285968,Acute Hospitals,11321,5.294143626888084
+    Tan Tock Seng Hospital,59935,Specialist Outpatient Clinics,5285968,Psychiatric Hospitals,1950,30.735897435897435
+    Tan Tock Seng Hospital,59935,Specialist Outpatient Clinics,5285968,Community Hospitals,1986,30.178751258811683
+    Tan Tock Seng Hospital,59935,Specialist Outpatient Clinics,5285968,Nursing Homes,16059,3.732175104302883
+    Tan Tock Seng Hospital,59935,Accident & Emergency Departments,1080296,Acute Hospitals,11321,5.294143626888084
+    Tan Tock Seng Hospital,59935,Accident & Emergency Departments,1080296,Psychiatric Hospitals,1950,30.735897435897435
+    Tan Tock Seng Hospital,59935,Accident & Emergency Departments,1080296,Community Hospitals,1986,30.178751258811683
+    Tan Tock Seng Hospital,59935,Accident & Emergency Departments,1080296,Nursing Homes,16059,3.732175104302883
+    Tan Tock Seng Hospital,59935,Polyclinics,6691295,Acute Hospitals,11321,5.294143626888084
+    Tan Tock Seng Hospital,59935,Polyclinics,6691295,Psychiatric Hospitals,1950,30.735897435897435
+    Tan Tock Seng Hospital,59935,Polyclinics,6691295,Community Hospitals,1986,30.178751258811683
+    Tan Tock Seng Hospital,59935,Polyclinics,6691295,Nursing Homes,16059,3.732175104302883
+    Tan Tock Seng Hospital,59935,Dental Clinics,1070808,Acute Hospitals,11321,5.294143626888084
+    Tan Tock Seng Hospital,59935,Dental Clinics,1070808,Psychiatric Hospitals,1950,30.735897435897435
+    Tan Tock Seng Hospital,59935,Dental Clinics,1070808,Community Hospitals,1986,30.178751258811683
+    Tan Tock Seng Hospital,59935,Dental Clinics,1070808,Nursing Homes,16059,3.732175104302883
+    Tan Tock Seng Hospital,59935,Day Surgeries,376136,Acute Hospitals,11321,5.294143626888084
+    Tan Tock Seng Hospital,59935,Day Surgeries,376136,Psychiatric Hospitals,1950,30.735897435897435
+    Tan Tock Seng Hospital,59935,Day Surgeries,376136,Community Hospitals,1986,30.178751258811683
+    Tan Tock Seng Hospital,59935,Day Surgeries,376136,Nursing Homes,16059,3.732175104302883
+    Institute Of Mental Health / Woodbridge Hospital,9234,Acute Hospitals Admissions,618136,Acute Hospitals,11321,0.8156523275329034
+    Institute Of Mental Health / Woodbridge Hospital,9234,Acute Hospitals Admissions,618136,Psychiatric Hospitals,1950,4.735384615384615
+    Institute Of Mental Health / Woodbridge Hospital,9234,Acute Hospitals Admissions,618136,Community Hospitals,1986,4.649546827794562
+    Institute Of Mental Health / Woodbridge Hospital,9234,Acute Hospitals Admissions,618136,Nursing Homes,16059,0.5750046702783486
+    Institute Of Mental Health / Woodbridge Hospital,9234,Psychiatric Hospitals Admissions,9234,Acute Hospitals,11321,0.8156523275329034
+    Institute Of Mental Health / Woodbridge Hospital,9234,Psychiatric Hospitals Admissions,9234,Psychiatric Hospitals,1950,4.735384615384615
+    Institute Of Mental Health / Woodbridge Hospital,9234,Psychiatric Hospitals Admissions,9234,Community Hospitals,1986,4.649546827794562
+    Institute Of Mental Health / Woodbridge Hospital,9234,Psychiatric Hospitals Admissions,9234,Nursing Homes,16059,0.5750046702783486
+    Institute Of Mental Health / Woodbridge Hospital,9234,Community Hospitals Admissions,20043,Acute Hospitals,11321,0.8156523275329034
+    Institute Of Mental Health / Woodbridge Hospital,9234,Community Hospitals Admissions,20043,Psychiatric Hospitals,1950,4.735384615384615
+    Institute Of Mental Health / Woodbridge Hospital,9234,Community Hospitals Admissions,20043,Community Hospitals,1986,4.649546827794562
+    Institute Of Mental Health / Woodbridge Hospital,9234,Community Hospitals Admissions,20043,Nursing Homes,16059,0.5750046702783486
+    Institute Of Mental Health / Woodbridge Hospital,9234,Specialist Outpatient Clinics,5285968,Acute Hospitals,11321,0.8156523275329034
+    Institute Of Mental Health / Woodbridge Hospital,9234,Specialist Outpatient Clinics,5285968,Psychiatric Hospitals,1950,4.735384615384615
+    Institute Of Mental Health / Woodbridge Hospital,9234,Specialist Outpatient Clinics,5285968,Community Hospitals,1986,4.649546827794562
+    Institute Of Mental Health / Woodbridge Hospital,9234,Specialist Outpatient Clinics,5285968,Nursing Homes,16059,0.5750046702783486
+    Institute Of Mental Health / Woodbridge Hospital,9234,Accident & Emergency Departments,1080296,Acute Hospitals,11321,0.8156523275329034
+    Institute Of Mental Health / Woodbridge Hospital,9234,Accident & Emergency Departments,1080296,Psychiatric Hospitals,1950,4.735384615384615
+    Institute Of Mental Health / Woodbridge Hospital,9234,Accident & Emergency Departments,1080296,Community Hospitals,1986,4.649546827794562
+    Institute Of Mental Health / Woodbridge Hospital,9234,Accident & Emergency Departments,1080296,Nursing Homes,16059,0.5750046702783486
+    Institute Of Mental Health / Woodbridge Hospital,9234,Polyclinics,6691295,Acute Hospitals,11321,0.8156523275329034
+    Institute Of Mental Health / Woodbridge Hospital,9234,Polyclinics,6691295,Psychiatric Hospitals,1950,4.735384615384615
+    Institute Of Mental Health / Woodbridge Hospital,9234,Polyclinics,6691295,Community Hospitals,1986,4.649546827794562
+    Institute Of Mental Health / Woodbridge Hospital,9234,Polyclinics,6691295,Nursing Homes,16059,0.5750046702783486
+    Institute Of Mental Health / Woodbridge Hospital,9234,Dental Clinics,1070808,Acute Hospitals,11321,0.8156523275329034
+    Institute Of Mental Health / Woodbridge Hospital,9234,Dental Clinics,1070808,Psychiatric Hospitals,1950,4.735384615384615
+    Institute Of Mental Health / Woodbridge Hospital,9234,Dental Clinics,1070808,Community Hospitals,1986,4.649546827794562
+    Institute Of Mental Health / Woodbridge Hospital,9234,Dental Clinics,1070808,Nursing Homes,16059,0.5750046702783486
+    Institute Of Mental Health / Woodbridge Hospital,9234,Day Surgeries,376136,Acute Hospitals,11321,0.8156523275329034
+    Institute Of Mental Health / Woodbridge Hospital,9234,Day Surgeries,376136,Psychiatric Hospitals,1950,4.735384615384615
+    Institute Of Mental Health / Woodbridge Hospital,9234,Day Surgeries,376136,Community Hospitals,1986,4.649546827794562
+    Institute Of Mental Health / Woodbridge Hospital,9234,Day Surgeries,376136,Nursing Homes,16059,0.5750046702783486
+    Kandang Kerbau Women's & Children's Hospital,75955,Acute Hospitals Admissions,618136,Acute Hospitals,11321,6.70921296705238
+    Kandang Kerbau Women's & Children's Hospital,75955,Acute Hospitals Admissions,618136,Psychiatric Hospitals,1950,38.95128205128205
+    Kandang Kerbau Women's & Children's Hospital,75955,Acute Hospitals Admissions,618136,Community Hospitals,1986,38.24521651560927
+    Kandang Kerbau Women's & Children's Hospital,75955,Acute Hospitals Admissions,618136,Nursing Homes,16059,4.729746559561616
+    Kandang Kerbau Women's & Children's Hospital,75955,Psychiatric Hospitals Admissions,9234,Acute Hospitals,11321,6.70921296705238
+    Kandang Kerbau Women's & Children's Hospital,75955,Psychiatric Hospitals Admissions,9234,Psychiatric Hospitals,1950,38.95128205128205
+    Kandang Kerbau Women's & Children's Hospital,75955,Psychiatric Hospitals Admissions,9234,Community Hospitals,1986,38.24521651560927
+    Kandang Kerbau Women's & Children's Hospital,75955,Psychiatric Hospitals Admissions,9234,Nursing Homes,16059,4.729746559561616
+    Kandang Kerbau Women's & Children's Hospital,75955,Community Hospitals Admissions,20043,Acute Hospitals,11321,6.70921296705238
+    Kandang Kerbau Women's & Children's Hospital,75955,Community Hospitals Admissions,20043,Psychiatric Hospitals,1950,38.95128205128205
+    Kandang Kerbau Women's & Children's Hospital,75955,Community Hospitals Admissions,20043,Community Hospitals,1986,38.24521651560927
+    Kandang Kerbau Women's & Children's Hospital,75955,Community Hospitals Admissions,20043,Nursing Homes,16059,4.729746559561616
+    Kandang Kerbau Women's & Children's Hospital,75955,Specialist Outpatient Clinics,5285968,Acute Hospitals,11321,6.70921296705238
+    Kandang Kerbau Women's & Children's Hospital,75955,Specialist Outpatient Clinics,5285968,Psychiatric Hospitals,1950,38.95128205128205
+    Kandang Kerbau Women's & Children's Hospital,75955,Specialist Outpatient Clinics,5285968,Community Hospitals,1986,38.24521651560927
+    Kandang Kerbau Women's & Children's Hospital,75955,Specialist Outpatient Clinics,5285968,Nursing Homes,16059,4.729746559561616
+    Kandang Kerbau Women's & Children's Hospital,75955,Accident & Emergency Departments,1080296,Acute Hospitals,11321,6.70921296705238
+    Kandang Kerbau Women's & Children's Hospital,75955,Accident & Emergency Departments,1080296,Psychiatric Hospitals,1950,38.95128205128205
+    Kandang Kerbau Women's & Children's Hospital,75955,Accident & Emergency Departments,1080296,Community Hospitals,1986,38.24521651560927
+    Kandang Kerbau Women's & Children's Hospital,75955,Accident & Emergency Departments,1080296,Nursing Homes,16059,4.729746559561616
+    Kandang Kerbau Women's & Children's Hospital,75955,Polyclinics,6691295,Acute Hospitals,11321,6.70921296705238
+    Kandang Kerbau Women's & Children's Hospital,75955,Polyclinics,6691295,Psychiatric Hospitals,1950,38.95128205128205
+    Kandang Kerbau Women's & Children's Hospital,75955,Polyclinics,6691295,Community Hospitals,1986,38.24521651560927
+    Kandang Kerbau Women's & Children's Hospital,75955,Polyclinics,6691295,Nursing Homes,16059,4.729746559561616
+    Kandang Kerbau Women's & Children's Hospital,75955,Dental Clinics,1070808,Acute Hospitals,11321,6.70921296705238
+    Kandang Kerbau Women's & Children's Hospital,75955,Dental Clinics,1070808,Psychiatric Hospitals,1950,38.95128205128205
+    Kandang Kerbau Women's & Children's Hospital,75955,Dental Clinics,1070808,Community Hospitals,1986,38.24521651560927
+    Kandang Kerbau Women's & Children's Hospital,75955,Dental Clinics,1070808,Nursing Homes,16059,4.729746559561616
+    Kandang Kerbau Women's & Children's Hospital,75955,Day Surgeries,376136,Acute Hospitals,11321,6.70921296705238
+    Kandang Kerbau Women's & Children's Hospital,75955,Day Surgeries,376136,Psychiatric Hospitals,1950,38.95128205128205
+    Kandang Kerbau Women's & Children's Hospital,75955,Day Surgeries,376136,Community Hospitals,1986,38.24521651560927
+    Kandang Kerbau Women's & Children's Hospital,75955,Day Surgeries,376136,Nursing Homes,16059,4.729746559561616
+Public Sector Hospital Admissions,453289,Acute Hospitals Admissions,556511,Acute Hospitals,11545,39.262797747942834
+Public Sector Hospital Admissions,453289,Acute Hospitals Admissions,556511,Psychiatric Hospitals,1950,232.45589743589744
+Public Sector Hospital Admissions,453289,Acute Hospitals Admissions,556511,Community Hospitals,2069,219.08603189946837
+Public Sector Hospital Admissions,453289,Acute Hospitals Admissions,556511,Nursing Homes,16221,27.9445780161519
+Public Sector Hospital Admissions,453289,Psychiatric Hospitals Admissions,8426,Acute Hospitals,11545,39.262797747942834
+Public Sector Hospital Admissions,453289,Psychiatric Hospitals Admissions,8426,Psychiatric Hospitals,1950,232.45589743589744
+Public Sector Hospital Admissions,453289,Psychiatric Hospitals Admissions,8426,Community Hospitals,2069,219.08603189946837
+Public Sector Hospital Admissions,453289,Psychiatric Hospitals Admissions,8426,Nursing Homes,16221,27.9445780161519
+Public Sector Hospital Admissions,453289,Community Hospitals Admissions,20852,Acute Hospitals,11545,39.262797747942834
+Public Sector Hospital Admissions,453289,Community Hospitals Admissions,20852,Psychiatric Hospitals,1950,232.45589743589744
+Public Sector Hospital Admissions,453289,Community Hospitals Admissions,20852,Community Hospitals,2069,219.08603189946837
+Public Sector Hospital Admissions,453289,Community Hospitals Admissions,20852,Nursing Homes,16221,27.9445780161519
+Public Sector Hospital Admissions,453289,Specialist Outpatient Clinics,4478648,Acute Hospitals,11545,39.262797747942834
+Public Sector Hospital Admissions,453289,Specialist Outpatient Clinics,4478648,Psychiatric Hospitals,1950,232.45589743589744
+Public Sector Hospital Admissions,453289,Specialist Outpatient Clinics,4478648,Community Hospitals,2069,219.08603189946837
+Public Sector Hospital Admissions,453289,Specialist Outpatient Clinics,4478648,Nursing Homes,16221,27.9445780161519
+Public Sector Hospital Admissions,453289,Accident & Emergency Departments,897402,Acute Hospitals,11545,39.262797747942834
+Public Sector Hospital Admissions,453289,Accident & Emergency Departments,897402,Psychiatric Hospitals,1950,232.45589743589744
+Public Sector Hospital Admissions,453289,Accident & Emergency Departments,897402,Community Hospitals,2069,219.08603189946837
+Public Sector Hospital Admissions,453289,Accident & Emergency Departments,897402,Nursing Homes,16221,27.9445780161519
+Public Sector Hospital Admissions,453289,Polyclinics,5992676,Acute Hospitals,11545,39.262797747942834
+Public Sector Hospital Admissions,453289,Polyclinics,5992676,Psychiatric Hospitals,1950,232.45589743589744
+Public Sector Hospital Admissions,453289,Polyclinics,5992676,Community Hospitals,2069,219.08603189946837
+Public Sector Hospital Admissions,453289,Polyclinics,5992676,Nursing Homes,16221,27.9445780161519
+Public Sector Hospital Admissions,453289,Dental Clinics,701924,Acute Hospitals,11545,39.262797747942834
+Public Sector Hospital Admissions,453289,Dental Clinics,701924,Psychiatric Hospitals,1950,232.45589743589744
+Public Sector Hospital Admissions,453289,Dental Clinics,701924,Community Hospitals,2069,219.08603189946837
+Public Sector Hospital Admissions,453289,Dental Clinics,701924,Nursing Homes,16221,27.9445780161519
+Public Sector Hospital Admissions,453289,Day Surgeries,313483,Acute Hospitals,11545,39.262797747942834
+Public Sector Hospital Admissions,453289,Day Surgeries,313483,Psychiatric Hospitals,1950,232.45589743589744
+Public Sector Hospital Admissions,453289,Day Surgeries,313483,Community Hospitals,2069,219.08603189946837
+Public Sector Hospital Admissions,453289,Day Surgeries,313483,Nursing Homes,16221,27.9445780161519
+    National University Hospital,62272,Acute Hospitals Admissions,556511,Acute Hospitals,11545,5.393850151580771
+    National University Hospital,62272,Acute Hospitals Admissions,556511,Psychiatric Hospitals,1950,31.93435897435897
+    National University Hospital,62272,Acute Hospitals Admissions,556511,Community Hospitals,2069,30.09763170613823
+    National University Hospital,62272,Acute Hospitals Admissions,556511,Nursing Homes,16221,3.838974169286727
+    National University Hospital,62272,Psychiatric Hospitals Admissions,8426,Acute Hospitals,11545,5.393850151580771
+    National University Hospital,62272,Psychiatric Hospitals Admissions,8426,Psychiatric Hospitals,1950,31.93435897435897
+    National University Hospital,62272,Psychiatric Hospitals Admissions,8426,Community Hospitals,2069,30.09763170613823
+    National University Hospital,62272,Psychiatric Hospitals Admissions,8426,Nursing Homes,16221,3.838974169286727
+    National University Hospital,62272,Community Hospitals Admissions,20852,Acute Hospitals,11545,5.393850151580771
+    National University Hospital,62272,Community Hospitals Admissions,20852,Psychiatric Hospitals,1950,31.93435897435897
+    National University Hospital,62272,Community Hospitals Admissions,20852,Community Hospitals,2069,30.09763170613823
+    National University Hospital,62272,Community Hospitals Admissions,20852,Nursing Homes,16221,3.838974169286727
+    National University Hospital,62272,Specialist Outpatient Clinics,4478648,Acute Hospitals,11545,5.393850151580771
+    National University Hospital,62272,Specialist Outpatient Clinics,4478648,Psychiatric Hospitals,1950,31.93435897435897
+    National University Hospital,62272,Specialist Outpatient Clinics,4478648,Community Hospitals,2069,30.09763170613823
+    National University Hospital,62272,Specialist Outpatient Clinics,4478648,Nursing Homes,16221,3.838974169286727
+    National University Hospital,62272,Accident & Emergency Departments,897402,Acute Hospitals,11545,5.393850151580771
+    National University Hospital,62272,Accident & Emergency Departments,897402,Psychiatric Hospitals,1950,31.93435897435897
+    National University Hospital,62272,Accident & Emergency Departments,897402,Community Hospitals,2069,30.09763170613823
+    National University Hospital,62272,Accident & Emergency Departments,897402,Nursing Homes,16221,3.838974169286727
+    National University Hospital,62272,Polyclinics,5992676,Acute Hospitals,11545,5.393850151580771
+    National University Hospital,62272,Polyclinics,5992676,Psychiatric Hospitals,1950,31.93435897435897
+    National University Hospital,62272,Polyclinics,5992676,Community Hospitals,2069,30.09763170613823
+    National University Hospital,62272,Polyclinics,5992676,Nursing Homes,16221,3.838974169286727
+    National University Hospital,62272,Dental Clinics,701924,Acute Hospitals,11545,5.393850151580771
+    National University Hospital,62272,Dental Clinics,701924,Psychiatric Hospitals,1950,31.93435897435897
+    National University Hospital,62272,Dental Clinics,701924,Community Hospitals,2069,30.09763170613823
+    National University Hospital,62272,Dental Clinics,701924,Nursing Homes,16221,3.838974169286727
+    National University Hospital,62272,Day Surgeries,313483,Acute Hospitals,11545,5.393850151580771
+    National University Hospital,62272,Day Surgeries,313483,Psychiatric Hospitals,1950,31.93435897435897
+    National University Hospital,62272,Day Surgeries,313483,Community Hospitals,2069,30.09763170613823
+    National University Hospital,62272,Day Surgeries,313483,Nursing Homes,16221,3.838974169286727
+    Singapore General Hospital,73875,Acute Hospitals Admissions,556511,Acute Hospitals,11545,6.398873971416197
+    Singapore General Hospital,73875,Acute Hospitals Admissions,556511,Psychiatric Hospitals,1950,37.88461538461539
+    Singapore General Hospital,73875,Acute Hospitals Admissions,556511,Community Hospitals,2069,35.70565490575157
+    Singapore General Hospital,73875,Acute Hospitals Admissions,556511,Nursing Homes,16221,4.554281486961346
+    Singapore General Hospital,73875,Psychiatric Hospitals Admissions,8426,Acute Hospitals,11545,6.398873971416197
+    Singapore General Hospital,73875,Psychiatric Hospitals Admissions,8426,Psychiatric Hospitals,1950,37.88461538461539
+    Singapore General Hospital,73875,Psychiatric Hospitals Admissions,8426,Community Hospitals,2069,35.70565490575157
+    Singapore General Hospital,73875,Psychiatric Hospitals Admissions,8426,Nursing Homes,16221,4.554281486961346
+    Singapore General Hospital,73875,Community Hospitals Admissions,20852,Acute Hospitals,11545,6.398873971416197
+    Singapore General Hospital,73875,Community Hospitals Admissions,20852,Psychiatric Hospitals,1950,37.88461538461539
+    Singapore General Hospital,73875,Community Hospitals Admissions,20852,Community Hospitals,2069,35.70565490575157
+    Singapore General Hospital,73875,Community Hospitals Admissions,20852,Nursing Homes,16221,4.554281486961346
+    Singapore General Hospital,73875,Specialist Outpatient Clinics,4478648,Acute Hospitals,11545,6.398873971416197
+    Singapore General Hospital,73875,Specialist Outpatient Clinics,4478648,Psychiatric Hospitals,1950,37.88461538461539
+    Singapore General Hospital,73875,Specialist Outpatient Clinics,4478648,Community Hospitals,2069,35.70565490575157
+    Singapore General Hospital,73875,Specialist Outpatient Clinics,4478648,Nursing Homes,16221,4.554281486961346
+    Singapore General Hospital,73875,Accident & Emergency Departments,897402,Acute Hospitals,11545,6.398873971416197
+    Singapore General Hospital,73875,Accident & Emergency Departments,897402,Psychiatric Hospitals,1950,37.88461538461539
+    Singapore General Hospital,73875,Accident & Emergency Departments,897402,Community Hospitals,2069,35.70565490575157
+    Singapore General Hospital,73875,Accident & Emergency Departments,897402,Nursing Homes,16221,4.554281486961346
+    Singapore General Hospital,73875,Polyclinics,5992676,Acute Hospitals,11545,6.398873971416197
+    Singapore General Hospital,73875,Polyclinics,5992676,Psychiatric Hospitals,1950,37.88461538461539
+    Singapore General Hospital,73875,Polyclinics,5992676,Community Hospitals,2069,35.70565490575157
+    Singapore General Hospital,73875,Polyclinics,5992676,Nursing Homes,16221,4.554281486961346
+    Singapore General Hospital,73875,Dental Clinics,701924,Acute Hospitals,11545,6.398873971416197
+    Singapore General Hospital,73875,Dental Clinics,701924,Psychiatric Hospitals,1950,37.88461538461539
+    Singapore General Hospital,73875,Dental Clinics,701924,Community Hospitals,2069,35.70565490575157
+    Singapore General Hospital,73875,Dental Clinics,701924,Nursing Homes,16221,4.554281486961346
+    Singapore General Hospital,73875,Day Surgeries,313483,Acute Hospitals,11545,6.398873971416197
+    Singapore General Hospital,73875,Day Surgeries,313483,Psychiatric Hospitals,1950,37.88461538461539
+    Singapore General Hospital,73875,Day Surgeries,313483,Community Hospitals,2069,35.70565490575157
+    Singapore General Hospital,73875,Day Surgeries,313483,Nursing Homes,16221,4.554281486961346
+    Tan Tock Seng Hospital,49976,Acute Hospitals Admissions,556511,Acute Hospitals,11545,4.3288003464703335
+    Tan Tock Seng Hospital,49976,Acute Hospitals Admissions,556511,Psychiatric Hospitals,1950,25.62871794871795
+    Tan Tock Seng Hospital,49976,Acute Hospitals Admissions,556511,Community Hospitals,2069,24.15466408893185
+    Tan Tock Seng Hospital,49976,Acute Hospitals Admissions,556511,Nursing Homes,16221,3.0809444547191918
+    Tan Tock Seng Hospital,49976,Psychiatric Hospitals Admissions,8426,Acute Hospitals,11545,4.3288003464703335
+    Tan Tock Seng Hospital,49976,Psychiatric Hospitals Admissions,8426,Psychiatric Hospitals,1950,25.62871794871795
+    Tan Tock Seng Hospital,49976,Psychiatric Hospitals Admissions,8426,Community Hospitals,2069,24.15466408893185
+    Tan Tock Seng Hospital,49976,Psychiatric Hospitals Admissions,8426,Nursing Homes,16221,3.0809444547191918
+    Tan Tock Seng Hospital,49976,Community Hospitals Admissions,20852,Acute Hospitals,11545,4.3288003464703335
+    Tan Tock Seng Hospital,49976,Community Hospitals Admissions,20852,Psychiatric Hospitals,1950,25.62871794871795
+    Tan Tock Seng Hospital,49976,Community Hospitals Admissions,20852,Community Hospitals,2069,24.15466408893185
+    Tan Tock Seng Hospital,49976,Community Hospitals Admissions,20852,Nursing Homes,16221,3.0809444547191918
+    Tan Tock Seng Hospital,49976,Specialist Outpatient Clinics,4478648,Acute Hospitals,11545,4.3288003464703335
+    Tan Tock Seng Hospital,49976,Specialist Outpatient Clinics,4478648,Psychiatric Hospitals,1950,25.62871794871795
+    Tan Tock Seng Hospital,49976,Specialist Outpatient Clinics,4478648,Community Hospitals,2069,24.15466408893185
+    Tan Tock Seng Hospital,49976,Specialist Outpatient Clinics,4478648,Nursing Homes,16221,3.0809444547191918
+    Tan Tock Seng Hospital,49976,Accident & Emergency Departments,897402,Acute Hospitals,11545,4.3288003464703335
+    Tan Tock Seng Hospital,49976,Accident & Emergency Departments,897402,Psychiatric Hospitals,1950,25.62871794871795
+    Tan Tock Seng Hospital,49976,Accident & Emergency Departments,897402,Community Hospitals,2069,24.15466408893185
+    Tan Tock Seng Hospital,49976,Accident & Emergency Departments,897402,Nursing Homes,16221,3.0809444547191918
+    Tan Tock Seng Hospital,49976,Polyclinics,5992676,Acute Hospitals,11545,4.3288003464703335
+    Tan Tock Seng Hospital,49976,Polyclinics,5992676,Psychiatric Hospitals,1950,25.62871794871795
+    Tan Tock Seng Hospital,49976,Polyclinics,5992676,Community Hospitals,2069,24.15466408893185
+    Tan Tock Seng Hospital,49976,Polyclinics,5992676,Nursing Homes,16221,3.0809444547191918
+    Tan Tock Seng Hospital,49976,Dental Clinics,701924,Acute Hospitals,11545,4.3288003464703335
+    Tan Tock Seng Hospital,49976,Dental Clinics,701924,Psychiatric Hospitals,1950,25.62871794871795
+    Tan Tock Seng Hospital,49976,Dental Clinics,701924,Community Hospitals,2069,24.15466408893185
+    Tan Tock Seng Hospital,49976,Dental Clinics,701924,Nursing Homes,16221,3.0809444547191918
+    Tan Tock Seng Hospital,49976,Day Surgeries,313483,Acute Hospitals,11545,4.3288003464703335
+    Tan Tock Seng Hospital,49976,Day Surgeries,313483,Psychiatric Hospitals,1950,25.62871794871795
+    Tan Tock Seng Hospital,49976,Day Surgeries,313483,Community Hospitals,2069,24.15466408893185
+    Tan Tock Seng Hospital,49976,Day Surgeries,313483,Nursing Homes,16221,3.0809444547191918
+    Institute Of Mental Health / Woodbridge Hospital,8426,Acute Hospitals Admissions,556511,Acute Hospitals,11545,0.7298397574707666
+    Institute Of Mental Health / Woodbridge Hospital,8426,Acute Hospitals Admissions,556511,Psychiatric Hospitals,1950,4.321025641025641
+    Institute Of Mental Health / Woodbridge Hospital,8426,Acute Hospitals Admissions,556511,Community Hospitals,2069,4.072498791686805
+    Institute Of Mental Health / Woodbridge Hospital,8426,Acute Hospitals Admissions,556511,Nursing Homes,16221,0.5194500955551445
+    Institute Of Mental Health / Woodbridge Hospital,8426,Psychiatric Hospitals Admissions,8426,Acute Hospitals,11545,0.7298397574707666
+    Institute Of Mental Health / Woodbridge Hospital,8426,Psychiatric Hospitals Admissions,8426,Psychiatric Hospitals,1950,4.321025641025641
+    Institute Of Mental Health / Woodbridge Hospital,8426,Psychiatric Hospitals Admissions,8426,Community Hospitals,2069,4.072498791686805
+    Institute Of Mental Health / Woodbridge Hospital,8426,Psychiatric Hospitals Admissions,8426,Nursing Homes,16221,0.5194500955551445
+    Institute Of Mental Health / Woodbridge Hospital,8426,Community Hospitals Admissions,20852,Acute Hospitals,11545,0.7298397574707666
+    Institute Of Mental Health / Woodbridge Hospital,8426,Community Hospitals Admissions,20852,Psychiatric Hospitals,1950,4.321025641025641
+    Institute Of Mental Health / Woodbridge Hospital,8426,Community Hospitals Admissions,20852,Community Hospitals,2069,4.072498791686805
+    Institute Of Mental Health / Woodbridge Hospital,8426,Community Hospitals Admissions,20852,Nursing Homes,16221,0.5194500955551445
+    Institute Of Mental Health / Woodbridge Hospital,8426,Specialist Outpatient Clinics,4478648,Acute Hospitals,11545,0.7298397574707666
+    Institute Of Mental Health / Woodbridge Hospital,8426,Specialist Outpatient Clinics,4478648,Psychiatric Hospitals,1950,4.321025641025641
+    Institute Of Mental Health / Woodbridge Hospital,8426,Specialist Outpatient Clinics,4478648,Community Hospitals,2069,4.072498791686805
+    Institute Of Mental Health / Woodbridge Hospital,8426,Specialist Outpatient Clinics,4478648,Nursing Homes,16221,0.5194500955551445
+    Institute Of Mental Health / Woodbridge Hospital,8426,Accident & Emergency Departments,897402,Acute Hospitals,11545,0.7298397574707666
+    Institute Of Mental Health / Woodbridge Hospital,8426,Accident & Emergency Departments,897402,Psychiatric Hospitals,1950,4.321025641025641
+    Institute Of Mental Health / Woodbridge Hospital,8426,Accident & Emergency Departments,897402,Community Hospitals,2069,4.072498791686805
+    Institute Of Mental Health / Woodbridge Hospital,8426,Accident & Emergency Departments,897402,Nursing Homes,16221,0.5194500955551445
+    Institute Of Mental Health / Woodbridge Hospital,8426,Polyclinics,5992676,Acute Hospitals,11545,0.7298397574707666
+    Institute Of Mental Health / Woodbridge Hospital,8426,Polyclinics,5992676,Psychiatric Hospitals,1950,4.321025641025641
+    Institute Of Mental Health / Woodbridge Hospital,8426,Polyclinics,5992676,Community Hospitals,2069,4.072498791686805
+    Institute Of Mental Health / Woodbridge Hospital,8426,Polyclinics,5992676,Nursing Homes,16221,0.5194500955551445
+    Institute Of Mental Health / Woodbridge Hospital,8426,Dental Clinics,701924,Acute Hospitals,11545,0.7298397574707666
+    Institute Of Mental Health / Woodbridge Hospital,8426,Dental Clinics,701924,Psychiatric Hospitals,1950,4.321025641025641
+    Institute Of Mental Health / Woodbridge Hospital,8426,Dental Clinics,701924,Community Hospitals,2069,4.072498791686805
+    Institute Of Mental Health / Woodbridge Hospital,8426,Dental Clinics,701924,Nursing Homes,16221,0.5194500955551445
+    Institute Of Mental Health / Woodbridge Hospital,8426,Day Surgeries,313483,Acute Hospitals,11545,0.7298397574707666
+    Institute Of Mental Health / Woodbridge Hospital,8426,Day Surgeries,313483,Psychiatric Hospitals,1950,4.321025641025641
+    Institute Of Mental Health / Woodbridge Hospital,8426,Day Surgeries,313483,Community Hospitals,2069,4.072498791686805
+    Institute Of Mental Health / Woodbridge Hospital,8426,Day Surgeries,313483,Nursing Homes,16221,0.5194500955551445
+    Kandang Kerbau Women's & Children's Hospital,61391,Acute Hospitals Admissions,556511,Acute Hospitals,11545,5.317540060632308
+    Kandang Kerbau Women's & Children's Hospital,61391,Acute Hospitals Admissions,556511,Psychiatric Hospitals,1950,31.4825641025641
+    Kandang Kerbau Women's & Children's Hospital,61391,Acute Hospitals Admissions,556511,Community Hospitals,2069,29.671822136297727
+    Kandang Kerbau Women's & Children's Hospital,61391,Acute Hospitals Admissions,556511,Nursing Homes,16221,3.7846618580851983
+    Kandang Kerbau Women's & Children's Hospital,61391,Psychiatric Hospitals Admissions,8426,Acute Hospitals,11545,5.317540060632308
+    Kandang Kerbau Women's & Children's Hospital,61391,Psychiatric Hospitals Admissions,8426,Psychiatric Hospitals,1950,31.4825641025641
+    Kandang Kerbau Women's & Children's Hospital,61391,Psychiatric Hospitals Admissions,8426,Community Hospitals,2069,29.671822136297727
+    Kandang Kerbau Women's & Children's Hospital,61391,Psychiatric Hospitals Admissions,8426,Nursing Homes,16221,3.7846618580851983
+    Kandang Kerbau Women's & Children's Hospital,61391,Community Hospitals Admissions,20852,Acute Hospitals,11545,5.317540060632308
+    Kandang Kerbau Women's & Children's Hospital,61391,Community Hospitals Admissions,20852,Psychiatric Hospitals,1950,31.4825641025641
+    Kandang Kerbau Women's & Children's Hospital,61391,Community Hospitals Admissions,20852,Community Hospitals,2069,29.671822136297727
+    Kandang Kerbau Women's & Children's Hospital,61391,Community Hospitals Admissions,20852,Nursing Homes,16221,3.7846618580851983
+    Kandang Kerbau Women's & Children's Hospital,61391,Specialist Outpatient Clinics,4478648,Acute Hospitals,11545,5.317540060632308
+    Kandang Kerbau Women's & Children's Hospital,61391,Specialist Outpatient Clinics,4478648,Psychiatric Hospitals,1950,31.4825641025641
+    Kandang Kerbau Women's & Children's Hospital,61391,Specialist Outpatient Clinics,4478648,Community Hospitals,2069,29.671822136297727
+    Kandang Kerbau Women's & Children's Hospital,61391,Specialist Outpatient Clinics,4478648,Nursing Homes,16221,3.7846618580851983
+    Kandang Kerbau Women's & Children's Hospital,61391,Accident & Emergency Departments,897402,Acute Hospitals,11545,5.317540060632308
+    Kandang Kerbau Women's & Children's Hospital,61391,Accident & Emergency Departments,897402,Psychiatric Hospitals,1950,31.4825641025641
+    Kandang Kerbau Women's & Children's Hospital,61391,Accident & Emergency Departments,897402,Community Hospitals,2069,29.671822136297727
+    Kandang Kerbau Women's & Children's Hospital,61391,Accident & Emergency Departments,897402,Nursing Homes,16221,3.7846618580851983
+    Kandang Kerbau Women's & Children's Hospital,61391,Polyclinics,5992676,Acute Hospitals,11545,5.317540060632308
+    Kandang Kerbau Women's & Children's Hospital,61391,Polyclinics,5992676,Psychiatric Hospitals,1950,31.4825641025641
+    Kandang Kerbau Women's & Children's Hospital,61391,Polyclinics,5992676,Community Hospitals,2069,29.671822136297727
+    Kandang Kerbau Women's & Children's Hospital,61391,Polyclinics,5992676,Nursing Homes,16221,3.7846618580851983
+    Kandang Kerbau Women's & Children's Hospital,61391,Dental Clinics,701924,Acute Hospitals,11545,5.317540060632308
+    Kandang Kerbau Women's & Children's Hospital,61391,Dental Clinics,701924,Psychiatric Hospitals,1950,31.4825641025641
+    Kandang Kerbau Women's & Children's Hospital,61391,Dental Clinics,701924,Community Hospitals,2069,29.671822136297727
+    Kandang Kerbau Women's & Children's Hospital,61391,Dental Clinics,701924,Nursing Homes,16221,3.7846618580851983
+    Kandang Kerbau Women's & Children's Hospital,61391,Day Surgeries,313483,Acute Hospitals,11545,5.317540060632308
+    Kandang Kerbau Women's & Children's Hospital,61391,Day Surgeries,313483,Psychiatric Hospitals,1950,31.4825641025641
+    Kandang Kerbau Women's & Children's Hospital,61391,Day Surgeries,313483,Community Hospitals,2069,29.671822136297727
+    Kandang Kerbau Women's & Children's Hospital,61391,Day Surgeries,313483,Nursing Homes,16221,3.7846618580851983
+Public Sector Hospital Admissions,461153,Acute Hospitals Admissions,566790,Acute Hospitals,11704,39.401315789473685
+Public Sector Hospital Admissions,461153,Acute Hospitals Admissions,566790,Psychiatric Hospitals,1950,236.48871794871795
+Public Sector Hospital Admissions,461153,Acute Hospitals Admissions,566790,Community Hospitals,2011,229.3152660367976
+Public Sector Hospital Admissions,461153,Acute Hospitals Admissions,566790,Nursing Homes,17064,27.024906235349277
+Public Sector Hospital Admissions,461153,Psychiatric Hospitals Admissions,8226,Acute Hospitals,11704,39.401315789473685
+Public Sector Hospital Admissions,461153,Psychiatric Hospitals Admissions,8226,Psychiatric Hospitals,1950,236.48871794871795
+Public Sector Hospital Admissions,461153,Psychiatric Hospitals Admissions,8226,Community Hospitals,2011,229.3152660367976
+Public Sector Hospital Admissions,461153,Psychiatric Hospitals Admissions,8226,Nursing Homes,17064,27.024906235349277
+Public Sector Hospital Admissions,461153,Community Hospitals Admissions,21207,Acute Hospitals,11704,39.401315789473685
+Public Sector Hospital Admissions,461153,Community Hospitals Admissions,21207,Psychiatric Hospitals,1950,236.48871794871795
+Public Sector Hospital Admissions,461153,Community Hospitals Admissions,21207,Community Hospitals,2011,229.3152660367976
+Public Sector Hospital Admissions,461153,Community Hospitals Admissions,21207,Nursing Homes,17064,27.024906235349277
+Public Sector Hospital Admissions,461153,Specialist Outpatient Clinics,5218526,Acute Hospitals,11704,39.401315789473685
+Public Sector Hospital Admissions,461153,Specialist Outpatient Clinics,5218526,Psychiatric Hospitals,1950,236.48871794871795
+Public Sector Hospital Admissions,461153,Specialist Outpatient Clinics,5218526,Community Hospitals,2011,229.3152660367976
+Public Sector Hospital Admissions,461153,Specialist Outpatient Clinics,5218526,Nursing Homes,17064,27.024906235349277
+Public Sector Hospital Admissions,461153,Accident & Emergency Departments,889087,Acute Hospitals,11704,39.401315789473685
+Public Sector Hospital Admissions,461153,Accident & Emergency Departments,889087,Psychiatric Hospitals,1950,236.48871794871795
+Public Sector Hospital Admissions,461153,Accident & Emergency Departments,889087,Community Hospitals,2011,229.3152660367976
+Public Sector Hospital Admissions,461153,Accident & Emergency Departments,889087,Nursing Homes,17064,27.024906235349277
+Public Sector Hospital Admissions,461153,Polyclinics,6200710,Acute Hospitals,11704,39.401315789473685
+Public Sector Hospital Admissions,461153,Polyclinics,6200710,Psychiatric Hospitals,1950,236.48871794871795
+Public Sector Hospital Admissions,461153,Polyclinics,6200710,Community Hospitals,2011,229.3152660367976
+Public Sector Hospital Admissions,461153,Polyclinics,6200710,Nursing Homes,17064,27.024906235349277
+Public Sector Hospital Admissions,461153,Dental Clinics,926026,Acute Hospitals,11704,39.401315789473685
+Public Sector Hospital Admissions,461153,Dental Clinics,926026,Psychiatric Hospitals,1950,236.48871794871795
+Public Sector Hospital Admissions,461153,Dental Clinics,926026,Community Hospitals,2011,229.3152660367976
+Public Sector Hospital Admissions,461153,Dental Clinics,926026,Nursing Homes,17064,27.024906235349277
+Public Sector Hospital Admissions,461153,Day Surgeries,396847,Acute Hospitals,11704,39.401315789473685
+Public Sector Hospital Admissions,461153,Day Surgeries,396847,Psychiatric Hospitals,1950,236.48871794871795
+Public Sector Hospital Admissions,461153,Day Surgeries,396847,Community Hospitals,2011,229.3152660367976
+Public Sector Hospital Admissions,461153,Day Surgeries,396847,Nursing Homes,17064,27.024906235349277
+    National University Hospital,65536,Acute Hospitals Admissions,566790,Acute Hospitals,11704,5.599453178400547
+    National University Hospital,65536,Acute Hospitals Admissions,566790,Psychiatric Hospitals,1950,33.60820512820513
+    National University Hospital,65536,Acute Hospitals Admissions,566790,Community Hospitals,2011,32.58876181004475
+    National University Hospital,65536,Acute Hospitals Admissions,566790,Nursing Homes,17064,3.840600093764651
+    National University Hospital,65536,Psychiatric Hospitals Admissions,8226,Acute Hospitals,11704,5.599453178400547
+    National University Hospital,65536,Psychiatric Hospitals Admissions,8226,Psychiatric Hospitals,1950,33.60820512820513
+    National University Hospital,65536,Psychiatric Hospitals Admissions,8226,Community Hospitals,2011,32.58876181004475
+    National University Hospital,65536,Psychiatric Hospitals Admissions,8226,Nursing Homes,17064,3.840600093764651
+    National University Hospital,65536,Community Hospitals Admissions,21207,Acute Hospitals,11704,5.599453178400547
+    National University Hospital,65536,Community Hospitals Admissions,21207,Psychiatric Hospitals,1950,33.60820512820513
+    National University Hospital,65536,Community Hospitals Admissions,21207,Community Hospitals,2011,32.58876181004475
+    National University Hospital,65536,Community Hospitals Admissions,21207,Nursing Homes,17064,3.840600093764651
+    National University Hospital,65536,Specialist Outpatient Clinics,5218526,Acute Hospitals,11704,5.599453178400547
+    National University Hospital,65536,Specialist Outpatient Clinics,5218526,Psychiatric Hospitals,1950,33.60820512820513
+    National University Hospital,65536,Specialist Outpatient Clinics,5218526,Community Hospitals,2011,32.58876181004475
+    National University Hospital,65536,Specialist Outpatient Clinics,5218526,Nursing Homes,17064,3.840600093764651
+    National University Hospital,65536,Accident & Emergency Departments,889087,Acute Hospitals,11704,5.599453178400547
+    National University Hospital,65536,Accident & Emergency Departments,889087,Psychiatric Hospitals,1950,33.60820512820513
+    National University Hospital,65536,Accident & Emergency Departments,889087,Community Hospitals,2011,32.58876181004475
+    National University Hospital,65536,Accident & Emergency Departments,889087,Nursing Homes,17064,3.840600093764651
+    National University Hospital,65536,Polyclinics,6200710,Acute Hospitals,11704,5.599453178400547
+    National University Hospital,65536,Polyclinics,6200710,Psychiatric Hospitals,1950,33.60820512820513
+    National University Hospital,65536,Polyclinics,6200710,Community Hospitals,2011,32.58876181004475
+    National University Hospital,65536,Polyclinics,6200710,Nursing Homes,17064,3.840600093764651
+    National University Hospital,65536,Dental Clinics,926026,Acute Hospitals,11704,5.599453178400547
+    National University Hospital,65536,Dental Clinics,926026,Psychiatric Hospitals,1950,33.60820512820513
+    National University Hospital,65536,Dental Clinics,926026,Community Hospitals,2011,32.58876181004475
+    National University Hospital,65536,Dental Clinics,926026,Nursing Homes,17064,3.840600093764651
+    National University Hospital,65536,Day Surgeries,396847,Acute Hospitals,11704,5.599453178400547
+    National University Hospital,65536,Day Surgeries,396847,Psychiatric Hospitals,1950,33.60820512820513
+    National University Hospital,65536,Day Surgeries,396847,Community Hospitals,2011,32.58876181004475
+    National University Hospital,65536,Day Surgeries,396847,Nursing Homes,17064,3.840600093764651
+    Singapore General Hospital,73324,Acute Hospitals Admissions,566790,Acute Hospitals,11704,6.264866712235134
+    Singapore General Hospital,73324,Acute Hospitals Admissions,566790,Psychiatric Hospitals,1950,37.602051282051285
+    Singapore General Hospital,73324,Acute Hospitals Admissions,566790,Community Hospitals,2011,36.461461959224266
+    Singapore General Hospital,73324,Acute Hospitals Admissions,566790,Nursing Homes,17064,4.296999531176747
+    Singapore General Hospital,73324,Psychiatric Hospitals Admissions,8226,Acute Hospitals,11704,6.264866712235134
+    Singapore General Hospital,73324,Psychiatric Hospitals Admissions,8226,Psychiatric Hospitals,1950,37.602051282051285
+    Singapore General Hospital,73324,Psychiatric Hospitals Admissions,8226,Community Hospitals,2011,36.461461959224266
+    Singapore General Hospital,73324,Psychiatric Hospitals Admissions,8226,Nursing Homes,17064,4.296999531176747
+    Singapore General Hospital,73324,Community Hospitals Admissions,21207,Acute Hospitals,11704,6.264866712235134
+    Singapore General Hospital,73324,Community Hospitals Admissions,21207,Psychiatric Hospitals,1950,37.602051282051285
+    Singapore General Hospital,73324,Community Hospitals Admissions,21207,Community Hospitals,2011,36.461461959224266
+    Singapore General Hospital,73324,Community Hospitals Admissions,21207,Nursing Homes,17064,4.296999531176747
+    Singapore General Hospital,73324,Specialist Outpatient Clinics,5218526,Acute Hospitals,11704,6.264866712235134
+    Singapore General Hospital,73324,Specialist Outpatient Clinics,5218526,Psychiatric Hospitals,1950,37.602051282051285
+    Singapore General Hospital,73324,Specialist Outpatient Clinics,5218526,Community Hospitals,2011,36.461461959224266
+    Singapore General Hospital,73324,Specialist Outpatient Clinics,5218526,Nursing Homes,17064,4.296999531176747
+    Singapore General Hospital,73324,Accident & Emergency Departments,889087,Acute Hospitals,11704,6.264866712235134
+    Singapore General Hospital,73324,Accident & Emergency Departments,889087,Psychiatric Hospitals,1950,37.602051282051285
+    Singapore General Hospital,73324,Accident & Emergency Departments,889087,Community Hospitals,2011,36.461461959224266
+    Singapore General Hospital,73324,Accident & Emergency Departments,889087,Nursing Homes,17064,4.296999531176747
+    Singapore General Hospital,73324,Polyclinics,6200710,Acute Hospitals,11704,6.264866712235134
+    Singapore General Hospital,73324,Polyclinics,6200710,Psychiatric Hospitals,1950,37.602051282051285
+    Singapore General Hospital,73324,Polyclinics,6200710,Community Hospitals,2011,36.461461959224266
+    Singapore General Hospital,73324,Polyclinics,6200710,Nursing Homes,17064,4.296999531176747
+    Singapore General Hospital,73324,Dental Clinics,926026,Acute Hospitals,11704,6.264866712235134
+    Singapore General Hospital,73324,Dental Clinics,926026,Psychiatric Hospitals,1950,37.602051282051285
+    Singapore General Hospital,73324,Dental Clinics,926026,Community Hospitals,2011,36.461461959224266
+    Singapore General Hospital,73324,Dental Clinics,926026,Nursing Homes,17064,4.296999531176747
+    Singapore General Hospital,73324,Day Surgeries,396847,Acute Hospitals,11704,6.264866712235134
+    Singapore General Hospital,73324,Day Surgeries,396847,Psychiatric Hospitals,1950,37.602051282051285
+    Singapore General Hospital,73324,Day Surgeries,396847,Community Hospitals,2011,36.461461959224266
+    Singapore General Hospital,73324,Day Surgeries,396847,Nursing Homes,17064,4.296999531176747
+    Tan Tock Seng Hospital,46597,Acute Hospitals Admissions,566790,Acute Hospitals,11704,3.981288448393712
+    Tan Tock Seng Hospital,46597,Acute Hospitals Admissions,566790,Psychiatric Hospitals,1950,23.895897435897435
+    Tan Tock Seng Hospital,46597,Acute Hospitals Admissions,566790,Community Hospitals,2011,23.17105917454003
+    Tan Tock Seng Hospital,46597,Acute Hospitals Admissions,566790,Nursing Homes,17064,2.7307196436943277
+    Tan Tock Seng Hospital,46597,Psychiatric Hospitals Admissions,8226,Acute Hospitals,11704,3.981288448393712
+    Tan Tock Seng Hospital,46597,Psychiatric Hospitals Admissions,8226,Psychiatric Hospitals,1950,23.895897435897435
+    Tan Tock Seng Hospital,46597,Psychiatric Hospitals Admissions,8226,Community Hospitals,2011,23.17105917454003
+    Tan Tock Seng Hospital,46597,Psychiatric Hospitals Admissions,8226,Nursing Homes,17064,2.7307196436943277
+    Tan Tock Seng Hospital,46597,Community Hospitals Admissions,21207,Acute Hospitals,11704,3.981288448393712
+    Tan Tock Seng Hospital,46597,Community Hospitals Admissions,21207,Psychiatric Hospitals,1950,23.895897435897435
+    Tan Tock Seng Hospital,46597,Community Hospitals Admissions,21207,Community Hospitals,2011,23.17105917454003
+    Tan Tock Seng Hospital,46597,Community Hospitals Admissions,21207,Nursing Homes,17064,2.7307196436943277
+    Tan Tock Seng Hospital,46597,Specialist Outpatient Clinics,5218526,Acute Hospitals,11704,3.981288448393712
+    Tan Tock Seng Hospital,46597,Specialist Outpatient Clinics,5218526,Psychiatric Hospitals,1950,23.895897435897435
+    Tan Tock Seng Hospital,46597,Specialist Outpatient Clinics,5218526,Community Hospitals,2011,23.17105917454003
+    Tan Tock Seng Hospital,46597,Specialist Outpatient Clinics,5218526,Nursing Homes,17064,2.7307196436943277
+    Tan Tock Seng Hospital,46597,Accident & Emergency Departments,889087,Acute Hospitals,11704,3.981288448393712
+    Tan Tock Seng Hospital,46597,Accident & Emergency Departments,889087,Psychiatric Hospitals,1950,23.895897435897435
+    Tan Tock Seng Hospital,46597,Accident & Emergency Departments,889087,Community Hospitals,2011,23.17105917454003
+    Tan Tock Seng Hospital,46597,Accident & Emergency Departments,889087,Nursing Homes,17064,2.7307196436943277
+    Tan Tock Seng Hospital,46597,Polyclinics,6200710,Acute Hospitals,11704,3.981288448393712
+    Tan Tock Seng Hospital,46597,Polyclinics,6200710,Psychiatric Hospitals,1950,23.895897435897435
+    Tan Tock Seng Hospital,46597,Polyclinics,6200710,Community Hospitals,2011,23.17105917454003
+    Tan Tock Seng Hospital,46597,Polyclinics,6200710,Nursing Homes,17064,2.7307196436943277
+    Tan Tock Seng Hospital,46597,Dental Clinics,926026,Acute Hospitals,11704,3.981288448393712
+    Tan Tock Seng Hospital,46597,Dental Clinics,926026,Psychiatric Hospitals,1950,23.895897435897435
+    Tan Tock Seng Hospital,46597,Dental Clinics,926026,Community Hospitals,2011,23.17105917454003
+    Tan Tock Seng Hospital,46597,Dental Clinics,926026,Nursing Homes,17064,2.7307196436943277
+    Tan Tock Seng Hospital,46597,Day Surgeries,396847,Acute Hospitals,11704,3.981288448393712
+    Tan Tock Seng Hospital,46597,Day Surgeries,396847,Psychiatric Hospitals,1950,23.895897435897435
+    Tan Tock Seng Hospital,46597,Day Surgeries,396847,Community Hospitals,2011,23.17105917454003
+    Tan Tock Seng Hospital,46597,Day Surgeries,396847,Nursing Homes,17064,2.7307196436943277
+    Institute Of Mental Health / Woodbridge Hospital,8226,Acute Hospitals Admissions,566790,Acute Hospitals,11704,0.7028366370471634
+    Institute Of Mental Health / Woodbridge Hospital,8226,Acute Hospitals Admissions,566790,Psychiatric Hospitals,1950,4.218461538461538
+    Institute Of Mental Health / Woodbridge Hospital,8226,Acute Hospitals Admissions,566790,Community Hospitals,2011,4.09050223769269
+    Institute Of Mental Health / Woodbridge Hospital,8226,Acute Hospitals Admissions,566790,Nursing Homes,17064,0.4820675105485232
+    Institute Of Mental Health / Woodbridge Hospital,8226,Psychiatric Hospitals Admissions,8226,Acute Hospitals,11704,0.7028366370471634
+    Institute Of Mental Health / Woodbridge Hospital,8226,Psychiatric Hospitals Admissions,8226,Psychiatric Hospitals,1950,4.218461538461538
+    Institute Of Mental Health / Woodbridge Hospital,8226,Psychiatric Hospitals Admissions,8226,Community Hospitals,2011,4.09050223769269
+    Institute Of Mental Health / Woodbridge Hospital,8226,Psychiatric Hospitals Admissions,8226,Nursing Homes,17064,0.4820675105485232
+    Institute Of Mental Health / Woodbridge Hospital,8226,Community Hospitals Admissions,21207,Acute Hospitals,11704,0.7028366370471634
+    Institute Of Mental Health / Woodbridge Hospital,8226,Community Hospitals Admissions,21207,Psychiatric Hospitals,1950,4.218461538461538
+    Institute Of Mental Health / Woodbridge Hospital,8226,Community Hospitals Admissions,21207,Community Hospitals,2011,4.09050223769269
+    Institute Of Mental Health / Woodbridge Hospital,8226,Community Hospitals Admissions,21207,Nursing Homes,17064,0.4820675105485232
+    Institute Of Mental Health / Woodbridge Hospital,8226,Specialist Outpatient Clinics,5218526,Acute Hospitals,11704,0.7028366370471634
+    Institute Of Mental Health / Woodbridge Hospital,8226,Specialist Outpatient Clinics,5218526,Psychiatric Hospitals,1950,4.218461538461538
+    Institute Of Mental Health / Woodbridge Hospital,8226,Specialist Outpatient Clinics,5218526,Community Hospitals,2011,4.09050223769269
+    Institute Of Mental Health / Woodbridge Hospital,8226,Specialist Outpatient Clinics,5218526,Nursing Homes,17064,0.4820675105485232
+    Institute Of Mental Health / Woodbridge Hospital,8226,Accident & Emergency Departments,889087,Acute Hospitals,11704,0.7028366370471634
+    Institute Of Mental Health / Woodbridge Hospital,8226,Accident & Emergency Departments,889087,Psychiatric Hospitals,1950,4.218461538461538
+    Institute Of Mental Health / Woodbridge Hospital,8226,Accident & Emergency Departments,889087,Community Hospitals,2011,4.09050223769269
+    Institute Of Mental Health / Woodbridge Hospital,8226,Accident & Emergency Departments,889087,Nursing Homes,17064,0.4820675105485232
+    Institute Of Mental Health / Woodbridge Hospital,8226,Polyclinics,6200710,Acute Hospitals,11704,0.7028366370471634
+    Institute Of Mental Health / Woodbridge Hospital,8226,Polyclinics,6200710,Psychiatric Hospitals,1950,4.218461538461538
+    Institute Of Mental Health / Woodbridge Hospital,8226,Polyclinics,6200710,Community Hospitals,2011,4.09050223769269
+    Institute Of Mental Health / Woodbridge Hospital,8226,Polyclinics,6200710,Nursing Homes,17064,0.4820675105485232
+    Institute Of Mental Health / Woodbridge Hospital,8226,Dental Clinics,926026,Acute Hospitals,11704,0.7028366370471634
+    Institute Of Mental Health / Woodbridge Hospital,8226,Dental Clinics,926026,Psychiatric Hospitals,1950,4.218461538461538
+    Institute Of Mental Health / Woodbridge Hospital,8226,Dental Clinics,926026,Community Hospitals,2011,4.09050223769269
+    Institute Of Mental Health / Woodbridge Hospital,8226,Dental Clinics,926026,Nursing Homes,17064,0.4820675105485232
+    Institute Of Mental Health / Woodbridge Hospital,8226,Day Surgeries,396847,Acute Hospitals,11704,0.7028366370471634
+    Institute Of Mental Health / Woodbridge Hospital,8226,Day Surgeries,396847,Psychiatric Hospitals,1950,4.218461538461538
+    Institute Of Mental Health / Woodbridge Hospital,8226,Day Surgeries,396847,Community Hospitals,2011,4.09050223769269
+    Institute Of Mental Health / Woodbridge Hospital,8226,Day Surgeries,396847,Nursing Homes,17064,0.4820675105485232
+    Kandang Kerbau Women's & Children's Hospital,68499,Acute Hospitals Admissions,566790,Acute Hospitals,11704,5.852614490772385
+    Kandang Kerbau Women's & Children's Hospital,68499,Acute Hospitals Admissions,566790,Psychiatric Hospitals,1950,35.12769230769231
+    Kandang Kerbau Women's & Children's Hospital,68499,Acute Hospitals Admissions,566790,Community Hospitals,2011,34.06215813028344
+    Kandang Kerbau Women's & Children's Hospital,68499,Acute Hospitals Admissions,566790,Nursing Homes,17064,4.014240506329114
+    Kandang Kerbau Women's & Children's Hospital,68499,Psychiatric Hospitals Admissions,8226,Acute Hospitals,11704,5.852614490772385
+    Kandang Kerbau Women's & Children's Hospital,68499,Psychiatric Hospitals Admissions,8226,Psychiatric Hospitals,1950,35.12769230769231
+    Kandang Kerbau Women's & Children's Hospital,68499,Psychiatric Hospitals Admissions,8226,Community Hospitals,2011,34.06215813028344
+    Kandang Kerbau Women's & Children's Hospital,68499,Psychiatric Hospitals Admissions,8226,Nursing Homes,17064,4.014240506329114
+    Kandang Kerbau Women's & Children's Hospital,68499,Community Hospitals Admissions,21207,Acute Hospitals,11704,5.852614490772385
+    Kandang Kerbau Women's & Children's Hospital,68499,Community Hospitals Admissions,21207,Psychiatric Hospitals,1950,35.12769230769231
+    Kandang Kerbau Women's & Children's Hospital,68499,Community Hospitals Admissions,21207,Community Hospitals,2011,34.06215813028344
+    Kandang Kerbau Women's & Children's Hospital,68499,Community Hospitals Admissions,21207,Nursing Homes,17064,4.014240506329114
+    Kandang Kerbau Women's & Children's Hospital,68499,Specialist Outpatient Clinics,5218526,Acute Hospitals,11704,5.852614490772385
+    Kandang Kerbau Women's & Children's Hospital,68499,Specialist Outpatient Clinics,5218526,Psychiatric Hospitals,1950,35.12769230769231
+    Kandang Kerbau Women's & Children's Hospital,68499,Specialist Outpatient Clinics,5218526,Community Hospitals,2011,34.06215813028344
+    Kandang Kerbau Women's & Children's Hospital,68499,Specialist Outpatient Clinics,5218526,Nursing Homes,17064,4.014240506329114
+    Kandang Kerbau Women's & Children's Hospital,68499,Accident & Emergency Departments,889087,Acute Hospitals,11704,5.852614490772385
+    Kandang Kerbau Women's & Children's Hospital,68499,Accident & Emergency Departments,889087,Psychiatric Hospitals,1950,35.12769230769231
+    Kandang Kerbau Women's & Children's Hospital,68499,Accident & Emergency Departments,889087,Community Hospitals,2011,34.06215813028344
+    Kandang Kerbau Women's & Children's Hospital,68499,Accident & Emergency Departments,889087,Nursing Homes,17064,4.014240506329114
+    Kandang Kerbau Women's & Children's Hospital,68499,Polyclinics,6200710,Acute Hospitals,11704,5.852614490772385
+    Kandang Kerbau Women's & Children's Hospital,68499,Polyclinics,6200710,Psychiatric Hospitals,1950,35.12769230769231
+    Kandang Kerbau Women's & Children's Hospital,68499,Polyclinics,6200710,Community Hospitals,2011,34.06215813028344
+    Kandang Kerbau Women's & Children's Hospital,68499,Polyclinics,6200710,Nursing Homes,17064,4.014240506329114
+    Kandang Kerbau Women's & Children's Hospital,68499,Dental Clinics,926026,Acute Hospitals,11704,5.852614490772385
+    Kandang Kerbau Women's & Children's Hospital,68499,Dental Clinics,926026,Psychiatric Hospitals,1950,35.12769230769231
+    Kandang Kerbau Women's & Children's Hospital,68499,Dental Clinics,926026,Community Hospitals,2011,34.06215813028344
+    Kandang Kerbau Women's & Children's Hospital,68499,Dental Clinics,926026,Nursing Homes,17064,4.014240506329114
+    Kandang Kerbau Women's & Children's Hospital,68499,Day Surgeries,396847,Acute Hospitals,11704,5.852614490772385
+    Kandang Kerbau Women's & Children's Hospital,68499,Day Surgeries,396847,Psychiatric Hospitals,1950,35.12769230769231
+    Kandang Kerbau Women's & Children's Hospital,68499,Day Surgeries,396847,Community Hospitals,2011,34.06215813028344
+    Kandang Kerbau Women's & Children's Hospital,68499,Day Surgeries,396847,Nursing Homes,17064,4.014240506329114
+Public Sector Hospital Admissions,495063,Acute Hospitals Admissions,598896,Acute Hospitals,11830,41.848098055790366
+Public Sector Hospital Admissions,495063,Acute Hospitals Admissions,598896,Psychiatric Hospitals,1950,253.87846153846155
+Public Sector Hospital Admissions,495063,Acute Hospitals Admissions,598896,Community Hospitals,2194,225.6440291704649
+Public Sector Hospital Admissions,495063,Acute Hospitals Admissions,598896,Nursing Homes,18157,27.26568265682657
+Public Sector Hospital Admissions,495063,Psychiatric Hospitals Admissions,9340,Acute Hospitals,11830,41.848098055790366
+Public Sector Hospital Admissions,495063,Psychiatric Hospitals Admissions,9340,Psychiatric Hospitals,1950,253.87846153846155
+Public Sector Hospital Admissions,495063,Psychiatric Hospitals Admissions,9340,Community Hospitals,2194,225.6440291704649
+Public Sector Hospital Admissions,495063,Psychiatric Hospitals Admissions,9340,Nursing Homes,18157,27.26568265682657
+Public Sector Hospital Admissions,495063,Community Hospitals Admissions,23678,Acute Hospitals,11830,41.848098055790366
+Public Sector Hospital Admissions,495063,Community Hospitals Admissions,23678,Psychiatric Hospitals,1950,253.87846153846155
+Public Sector Hospital Admissions,495063,Community Hospitals Admissions,23678,Community Hospitals,2194,225.6440291704649
+Public Sector Hospital Admissions,495063,Community Hospitals Admissions,23678,Nursing Homes,18157,27.26568265682657
+Public Sector Hospital Admissions,495063,Specialist Outpatient Clinics,5220544,Acute Hospitals,11830,41.848098055790366
+Public Sector Hospital Admissions,495063,Specialist Outpatient Clinics,5220544,Psychiatric Hospitals,1950,253.87846153846155
+Public Sector Hospital Admissions,495063,Specialist Outpatient Clinics,5220544,Community Hospitals,2194,225.6440291704649
+Public Sector Hospital Admissions,495063,Specialist Outpatient Clinics,5220544,Nursing Homes,18157,27.26568265682657
+Public Sector Hospital Admissions,495063,Accident & Emergency Departments,1021192,Acute Hospitals,11830,41.848098055790366
+Public Sector Hospital Admissions,495063,Accident & Emergency Departments,1021192,Psychiatric Hospitals,1950,253.87846153846155
+Public Sector Hospital Admissions,495063,Accident & Emergency Departments,1021192,Community Hospitals,2194,225.6440291704649
+Public Sector Hospital Admissions,495063,Accident & Emergency Departments,1021192,Nursing Homes,18157,27.26568265682657
+Public Sector Hospital Admissions,495063,Polyclinics,6610293,Acute Hospitals,11830,41.848098055790366
+Public Sector Hospital Admissions,495063,Polyclinics,6610293,Psychiatric Hospitals,1950,253.87846153846155
+Public Sector Hospital Admissions,495063,Polyclinics,6610293,Community Hospitals,2194,225.6440291704649
+Public Sector Hospital Admissions,495063,Polyclinics,6610293,Nursing Homes,18157,27.26568265682657
+Public Sector Hospital Admissions,495063,Dental Clinics,914875,Acute Hospitals,11830,41.848098055790366
+Public Sector Hospital Admissions,495063,Dental Clinics,914875,Psychiatric Hospitals,1950,253.87846153846155
+Public Sector Hospital Admissions,495063,Dental Clinics,914875,Community Hospitals,2194,225.6440291704649
+Public Sector Hospital Admissions,495063,Dental Clinics,914875,Nursing Homes,18157,27.26568265682657
+Public Sector Hospital Admissions,495063,Day Surgeries,407927,Acute Hospitals,11830,41.848098055790366
+Public Sector Hospital Admissions,495063,Day Surgeries,407927,Psychiatric Hospitals,1950,253.87846153846155
+Public Sector Hospital Admissions,495063,Day Surgeries,407927,Community Hospitals,2194,225.6440291704649
+Public Sector Hospital Admissions,495063,Day Surgeries,407927,Nursing Homes,18157,27.26568265682657
+    National University Hospital,67387,Acute Hospitals Admissions,598896,Acute Hospitals,11830,5.6962806424344885
+    National University Hospital,67387,Acute Hospitals Admissions,598896,Psychiatric Hospitals,1950,34.557435897435894
+    National University Hospital,67387,Acute Hospitals Admissions,598896,Community Hospitals,2194,30.71422060164084
+    National University Hospital,67387,Acute Hospitals Admissions,598896,Nursing Homes,18157,3.711350994106956
+    National University Hospital,67387,Psychiatric Hospitals Admissions,9340,Acute Hospitals,11830,5.6962806424344885
+    National University Hospital,67387,Psychiatric Hospitals Admissions,9340,Psychiatric Hospitals,1950,34.557435897435894
+    National University Hospital,67387,Psychiatric Hospitals Admissions,9340,Community Hospitals,2194,30.71422060164084
+    National University Hospital,67387,Psychiatric Hospitals Admissions,9340,Nursing Homes,18157,3.711350994106956
+    National University Hospital,67387,Community Hospitals Admissions,23678,Acute Hospitals,11830,5.6962806424344885
+    National University Hospital,67387,Community Hospitals Admissions,23678,Psychiatric Hospitals,1950,34.557435897435894
+    National University Hospital,67387,Community Hospitals Admissions,23678,Community Hospitals,2194,30.71422060164084
+    National University Hospital,67387,Community Hospitals Admissions,23678,Nursing Homes,18157,3.711350994106956
+    National University Hospital,67387,Specialist Outpatient Clinics,5220544,Acute Hospitals,11830,5.6962806424344885
+    National University Hospital,67387,Specialist Outpatient Clinics,5220544,Psychiatric Hospitals,1950,34.557435897435894
+    National University Hospital,67387,Specialist Outpatient Clinics,5220544,Community Hospitals,2194,30.71422060164084
+    National University Hospital,67387,Specialist Outpatient Clinics,5220544,Nursing Homes,18157,3.711350994106956
+    National University Hospital,67387,Accident & Emergency Departments,1021192,Acute Hospitals,11830,5.6962806424344885
+    National University Hospital,67387,Accident & Emergency Departments,1021192,Psychiatric Hospitals,1950,34.557435897435894
+    National University Hospital,67387,Accident & Emergency Departments,1021192,Community Hospitals,2194,30.71422060164084
+    National University Hospital,67387,Accident & Emergency Departments,1021192,Nursing Homes,18157,3.711350994106956
+    National University Hospital,67387,Polyclinics,6610293,Acute Hospitals,11830,5.6962806424344885
+    National University Hospital,67387,Polyclinics,6610293,Psychiatric Hospitals,1950,34.557435897435894
+    National University Hospital,67387,Polyclinics,6610293,Community Hospitals,2194,30.71422060164084
+    National University Hospital,67387,Polyclinics,6610293,Nursing Homes,18157,3.711350994106956
+    National University Hospital,67387,Dental Clinics,914875,Acute Hospitals,11830,5.6962806424344885
+    National University Hospital,67387,Dental Clinics,914875,Psychiatric Hospitals,1950,34.557435897435894
+    National University Hospital,67387,Dental Clinics,914875,Community Hospitals,2194,30.71422060164084
+    National University Hospital,67387,Dental Clinics,914875,Nursing Homes,18157,3.711350994106956
+    National University Hospital,67387,Day Surgeries,407927,Acute Hospitals,11830,5.6962806424344885
+    National University Hospital,67387,Day Surgeries,407927,Psychiatric Hospitals,1950,34.557435897435894
+    National University Hospital,67387,Day Surgeries,407927,Community Hospitals,2194,30.71422060164084
+    National University Hospital,67387,Day Surgeries,407927,Nursing Homes,18157,3.711350994106956
+    Singapore General Hospital,74788,Acute Hospitals Admissions,598896,Acute Hospitals,11830,6.321893491124261
+    Singapore General Hospital,74788,Acute Hospitals Admissions,598896,Psychiatric Hospitals,1950,38.352820512820514
+    Singapore General Hospital,74788,Acute Hospitals Admissions,598896,Community Hospitals,2194,34.087511394712855
+    Singapore General Hospital,74788,Acute Hospitals Admissions,598896,Nursing Homes,18157,4.118962383653687
+    Singapore General Hospital,74788,Psychiatric Hospitals Admissions,9340,Acute Hospitals,11830,6.321893491124261
+    Singapore General Hospital,74788,Psychiatric Hospitals Admissions,9340,Psychiatric Hospitals,1950,38.352820512820514
+    Singapore General Hospital,74788,Psychiatric Hospitals Admissions,9340,Community Hospitals,2194,34.087511394712855
+    Singapore General Hospital,74788,Psychiatric Hospitals Admissions,9340,Nursing Homes,18157,4.118962383653687
+    Singapore General Hospital,74788,Community Hospitals Admissions,23678,Acute Hospitals,11830,6.321893491124261
+    Singapore General Hospital,74788,Community Hospitals Admissions,23678,Psychiatric Hospitals,1950,38.352820512820514
+    Singapore General Hospital,74788,Community Hospitals Admissions,23678,Community Hospitals,2194,34.087511394712855
+    Singapore General Hospital,74788,Community Hospitals Admissions,23678,Nursing Homes,18157,4.118962383653687
+    Singapore General Hospital,74788,Specialist Outpatient Clinics,5220544,Acute Hospitals,11830,6.321893491124261
+    Singapore General Hospital,74788,Specialist Outpatient Clinics,5220544,Psychiatric Hospitals,1950,38.352820512820514
+    Singapore General Hospital,74788,Specialist Outpatient Clinics,5220544,Community Hospitals,2194,34.087511394712855
+    Singapore General Hospital,74788,Specialist Outpatient Clinics,5220544,Nursing Homes,18157,4.118962383653687
+    Singapore General Hospital,74788,Accident & Emergency Departments,1021192,Acute Hospitals,11830,6.321893491124261
+    Singapore General Hospital,74788,Accident & Emergency Departments,1021192,Psychiatric Hospitals,1950,38.352820512820514
+    Singapore General Hospital,74788,Accident & Emergency Departments,1021192,Community Hospitals,2194,34.087511394712855
+    Singapore General Hospital,74788,Accident & Emergency Departments,1021192,Nursing Homes,18157,4.118962383653687
+    Singapore General Hospital,74788,Polyclinics,6610293,Acute Hospitals,11830,6.321893491124261
+    Singapore General Hospital,74788,Polyclinics,6610293,Psychiatric Hospitals,1950,38.352820512820514
+    Singapore General Hospital,74788,Polyclinics,6610293,Community Hospitals,2194,34.087511394712855
+    Singapore General Hospital,74788,Polyclinics,6610293,Nursing Homes,18157,4.118962383653687
+    Singapore General Hospital,74788,Dental Clinics,914875,Acute Hospitals,11830,6.321893491124261
+    Singapore General Hospital,74788,Dental Clinics,914875,Psychiatric Hospitals,1950,38.352820512820514
+    Singapore General Hospital,74788,Dental Clinics,914875,Community Hospitals,2194,34.087511394712855
+    Singapore General Hospital,74788,Dental Clinics,914875,Nursing Homes,18157,4.118962383653687
+    Singapore General Hospital,74788,Day Surgeries,407927,Acute Hospitals,11830,6.321893491124261
+    Singapore General Hospital,74788,Day Surgeries,407927,Psychiatric Hospitals,1950,38.352820512820514
+    Singapore General Hospital,74788,Day Surgeries,407927,Community Hospitals,2194,34.087511394712855
+    Singapore General Hospital,74788,Day Surgeries,407927,Nursing Homes,18157,4.118962383653687
+    Tan Tock Seng Hospital,54840,Acute Hospitals Admissions,598896,Acute Hospitals,11830,4.635672020287405
+    Tan Tock Seng Hospital,54840,Acute Hospitals Admissions,598896,Psychiatric Hospitals,1950,28.123076923076923
+    Tan Tock Seng Hospital,54840,Acute Hospitals Admissions,598896,Community Hospitals,2194,24.995442114858704
+    Tan Tock Seng Hospital,54840,Acute Hospitals Admissions,598896,Nursing Homes,18157,3.020322740540838
+    Tan Tock Seng Hospital,54840,Psychiatric Hospitals Admissions,9340,Acute Hospitals,11830,4.635672020287405
+    Tan Tock Seng Hospital,54840,Psychiatric Hospitals Admissions,9340,Psychiatric Hospitals,1950,28.123076923076923
+    Tan Tock Seng Hospital,54840,Psychiatric Hospitals Admissions,9340,Community Hospitals,2194,24.995442114858704
+    Tan Tock Seng Hospital,54840,Psychiatric Hospitals Admissions,9340,Nursing Homes,18157,3.020322740540838
+    Tan Tock Seng Hospital,54840,Community Hospitals Admissions,23678,Acute Hospitals,11830,4.635672020287405
+    Tan Tock Seng Hospital,54840,Community Hospitals Admissions,23678,Psychiatric Hospitals,1950,28.123076923076923
+    Tan Tock Seng Hospital,54840,Community Hospitals Admissions,23678,Community Hospitals,2194,24.995442114858704
+    Tan Tock Seng Hospital,54840,Community Hospitals Admissions,23678,Nursing Homes,18157,3.020322740540838
+    Tan Tock Seng Hospital,54840,Specialist Outpatient Clinics,5220544,Acute Hospitals,11830,4.635672020287405
+    Tan Tock Seng Hospital,54840,Specialist Outpatient Clinics,5220544,Psychiatric Hospitals,1950,28.123076923076923
+    Tan Tock Seng Hospital,54840,Specialist Outpatient Clinics,5220544,Community Hospitals,2194,24.995442114858704
+    Tan Tock Seng Hospital,54840,Specialist Outpatient Clinics,5220544,Nursing Homes,18157,3.020322740540838
+    Tan Tock Seng Hospital,54840,Accident & Emergency Departments,1021192,Acute Hospitals,11830,4.635672020287405
+    Tan Tock Seng Hospital,54840,Accident & Emergency Departments,1021192,Psychiatric Hospitals,1950,28.123076923076923
+    Tan Tock Seng Hospital,54840,Accident & Emergency Departments,1021192,Community Hospitals,2194,24.995442114858704
+    Tan Tock Seng Hospital,54840,Accident & Emergency Departments,1021192,Nursing Homes,18157,3.020322740540838
+    Tan Tock Seng Hospital,54840,Polyclinics,6610293,Acute Hospitals,11830,4.635672020287405
+    Tan Tock Seng Hospital,54840,Polyclinics,6610293,Psychiatric Hospitals,1950,28.123076923076923
+    Tan Tock Seng Hospital,54840,Polyclinics,6610293,Community Hospitals,2194,24.995442114858704
+    Tan Tock Seng Hospital,54840,Polyclinics,6610293,Nursing Homes,18157,3.020322740540838
+    Tan Tock Seng Hospital,54840,Dental Clinics,914875,Acute Hospitals,11830,4.635672020287405
+    Tan Tock Seng Hospital,54840,Dental Clinics,914875,Psychiatric Hospitals,1950,28.123076923076923
+    Tan Tock Seng Hospital,54840,Dental Clinics,914875,Community Hospitals,2194,24.995442114858704
+    Tan Tock Seng Hospital,54840,Dental Clinics,914875,Nursing Homes,18157,3.020322740540838
+    Tan Tock Seng Hospital,54840,Day Surgeries,407927,Acute Hospitals,11830,4.635672020287405
+    Tan Tock Seng Hospital,54840,Day Surgeries,407927,Psychiatric Hospitals,1950,28.123076923076923
+    Tan Tock Seng Hospital,54840,Day Surgeries,407927,Community Hospitals,2194,24.995442114858704
+    Tan Tock Seng Hospital,54840,Day Surgeries,407927,Nursing Homes,18157,3.020322740540838
+    Institute Of Mental Health / Woodbridge Hospital,9340,Acute Hospitals Admissions,598896,Acute Hospitals,11830,0.7895181741335587
+    Institute Of Mental Health / Woodbridge Hospital,9340,Acute Hospitals Admissions,598896,Psychiatric Hospitals,1950,4.78974358974359
+    Institute Of Mental Health / Woodbridge Hospital,9340,Acute Hospitals Admissions,598896,Community Hospitals,2194,4.257064721969006
+    Institute Of Mental Health / Woodbridge Hospital,9340,Acute Hospitals Admissions,598896,Nursing Homes,18157,0.5144021589469626
+    Institute Of Mental Health / Woodbridge Hospital,9340,Psychiatric Hospitals Admissions,9340,Acute Hospitals,11830,0.7895181741335587
+    Institute Of Mental Health / Woodbridge Hospital,9340,Psychiatric Hospitals Admissions,9340,Psychiatric Hospitals,1950,4.78974358974359
+    Institute Of Mental Health / Woodbridge Hospital,9340,Psychiatric Hospitals Admissions,9340,Community Hospitals,2194,4.257064721969006
+    Institute Of Mental Health / Woodbridge Hospital,9340,Psychiatric Hospitals Admissions,9340,Nursing Homes,18157,0.5144021589469626
+    Institute Of Mental Health / Woodbridge Hospital,9340,Community Hospitals Admissions,23678,Acute Hospitals,11830,0.7895181741335587
+    Institute Of Mental Health / Woodbridge Hospital,9340,Community Hospitals Admissions,23678,Psychiatric Hospitals,1950,4.78974358974359
+    Institute Of Mental Health / Woodbridge Hospital,9340,Community Hospitals Admissions,23678,Community Hospitals,2194,4.257064721969006
+    Institute Of Mental Health / Woodbridge Hospital,9340,Community Hospitals Admissions,23678,Nursing Homes,18157,0.5144021589469626
+    Institute Of Mental Health / Woodbridge Hospital,9340,Specialist Outpatient Clinics,5220544,Acute Hospitals,11830,0.7895181741335587
+    Institute Of Mental Health / Woodbridge Hospital,9340,Specialist Outpatient Clinics,5220544,Psychiatric Hospitals,1950,4.78974358974359
+    Institute Of Mental Health / Woodbridge Hospital,9340,Specialist Outpatient Clinics,5220544,Community Hospitals,2194,4.257064721969006
+    Institute Of Mental Health / Woodbridge Hospital,9340,Specialist Outpatient Clinics,5220544,Nursing Homes,18157,0.5144021589469626
+    Institute Of Mental Health / Woodbridge Hospital,9340,Accident & Emergency Departments,1021192,Acute Hospitals,11830,0.7895181741335587
+    Institute Of Mental Health / Woodbridge Hospital,9340,Accident & Emergency Departments,1021192,Psychiatric Hospitals,1950,4.78974358974359
+    Institute Of Mental Health / Woodbridge Hospital,9340,Accident & Emergency Departments,1021192,Community Hospitals,2194,4.257064721969006
+    Institute Of Mental Health / Woodbridge Hospital,9340,Accident & Emergency Departments,1021192,Nursing Homes,18157,0.5144021589469626
+    Institute Of Mental Health / Woodbridge Hospital,9340,Polyclinics,6610293,Acute Hospitals,11830,0.7895181741335587
+    Institute Of Mental Health / Woodbridge Hospital,9340,Polyclinics,6610293,Psychiatric Hospitals,1950,4.78974358974359
+    Institute Of Mental Health / Woodbridge Hospital,9340,Polyclinics,6610293,Community Hospitals,2194,4.257064721969006
+    Institute Of Mental Health / Woodbridge Hospital,9340,Polyclinics,6610293,Nursing Homes,18157,0.5144021589469626
+    Institute Of Mental Health / Woodbridge Hospital,9340,Dental Clinics,914875,Acute Hospitals,11830,0.7895181741335587
+    Institute Of Mental Health / Woodbridge Hospital,9340,Dental Clinics,914875,Psychiatric Hospitals,1950,4.78974358974359
+    Institute Of Mental Health / Woodbridge Hospital,9340,Dental Clinics,914875,Community Hospitals,2194,4.257064721969006
+    Institute Of Mental Health / Woodbridge Hospital,9340,Dental Clinics,914875,Nursing Homes,18157,0.5144021589469626
+    Institute Of Mental Health / Woodbridge Hospital,9340,Day Surgeries,407927,Acute Hospitals,11830,0.7895181741335587
+    Institute Of Mental Health / Woodbridge Hospital,9340,Day Surgeries,407927,Psychiatric Hospitals,1950,4.78974358974359
+    Institute Of Mental Health / Woodbridge Hospital,9340,Day Surgeries,407927,Community Hospitals,2194,4.257064721969006
+    Institute Of Mental Health / Woodbridge Hospital,9340,Day Surgeries,407927,Nursing Homes,18157,0.5144021589469626
+    Kandang Kerbau Women's & Children's Hospital,77602,Acute Hospitals Admissions,598896,Acute Hospitals,11830,6.559763313609468
+    Kandang Kerbau Women's & Children's Hospital,77602,Acute Hospitals Admissions,598896,Psychiatric Hospitals,1950,39.79589743589744
+    Kandang Kerbau Women's & Children's Hospital,77602,Acute Hospitals Admissions,598896,Community Hospitals,2194,35.370100273473106
+    Kandang Kerbau Women's & Children's Hospital,77602,Acute Hospitals Admissions,598896,Nursing Homes,18157,4.2739439334691856
+    Kandang Kerbau Women's & Children's Hospital,77602,Psychiatric Hospitals Admissions,9340,Acute Hospitals,11830,6.559763313609468
+    Kandang Kerbau Women's & Children's Hospital,77602,Psychiatric Hospitals Admissions,9340,Psychiatric Hospitals,1950,39.79589743589744
+    Kandang Kerbau Women's & Children's Hospital,77602,Psychiatric Hospitals Admissions,9340,Community Hospitals,2194,35.370100273473106
+    Kandang Kerbau Women's & Children's Hospital,77602,Psychiatric Hospitals Admissions,9340,Nursing Homes,18157,4.2739439334691856
+    Kandang Kerbau Women's & Children's Hospital,77602,Community Hospitals Admissions,23678,Acute Hospitals,11830,6.559763313609468
+    Kandang Kerbau Women's & Children's Hospital,77602,Community Hospitals Admissions,23678,Psychiatric Hospitals,1950,39.79589743589744
+    Kandang Kerbau Women's & Children's Hospital,77602,Community Hospitals Admissions,23678,Community Hospitals,2194,35.370100273473106
+    Kandang Kerbau Women's & Children's Hospital,77602,Community Hospitals Admissions,23678,Nursing Homes,18157,4.2739439334691856
+    Kandang Kerbau Women's & Children's Hospital,77602,Specialist Outpatient Clinics,5220544,Acute Hospitals,11830,6.559763313609468
+    Kandang Kerbau Women's & Children's Hospital,77602,Specialist Outpatient Clinics,5220544,Psychiatric Hospitals,1950,39.79589743589744
+    Kandang Kerbau Women's & Children's Hospital,77602,Specialist Outpatient Clinics,5220544,Community Hospitals,2194,35.370100273473106
+    Kandang Kerbau Women's & Children's Hospital,77602,Specialist Outpatient Clinics,5220544,Nursing Homes,18157,4.2739439334691856
+    Kandang Kerbau Women's & Children's Hospital,77602,Accident & Emergency Departments,1021192,Acute Hospitals,11830,6.559763313609468
+    Kandang Kerbau Women's & Children's Hospital,77602,Accident & Emergency Departments,1021192,Psychiatric Hospitals,1950,39.79589743589744
+    Kandang Kerbau Women's & Children's Hospital,77602,Accident & Emergency Departments,1021192,Community Hospitals,2194,35.370100273473106
+    Kandang Kerbau Women's & Children's Hospital,77602,Accident & Emergency Departments,1021192,Nursing Homes,18157,4.2739439334691856
+    Kandang Kerbau Women's & Children's Hospital,77602,Polyclinics,6610293,Acute Hospitals,11830,6.559763313609468
+    Kandang Kerbau Women's & Children's Hospital,77602,Polyclinics,6610293,Psychiatric Hospitals,1950,39.79589743589744
+    Kandang Kerbau Women's & Children's Hospital,77602,Polyclinics,6610293,Community Hospitals,2194,35.370100273473106
+    Kandang Kerbau Women's & Children's Hospital,77602,Polyclinics,6610293,Nursing Homes,18157,4.2739439334691856
+    Kandang Kerbau Women's & Children's Hospital,77602,Dental Clinics,914875,Acute Hospitals,11830,6.559763313609468
+    Kandang Kerbau Women's & Children's Hospital,77602,Dental Clinics,914875,Psychiatric Hospitals,1950,39.79589743589744
+    Kandang Kerbau Women's & Children's Hospital,77602,Dental Clinics,914875,Community Hospitals,2194,35.370100273473106
+    Kandang Kerbau Women's & Children's Hospital,77602,Dental Clinics,914875,Nursing Homes,18157,4.2739439334691856
+    Kandang Kerbau Women's & Children's Hospital,77602,Day Surgeries,407927,Acute Hospitals,11830,6.559763313609468
+    Kandang Kerbau Women's & Children's Hospital,77602,Day Surgeries,407927,Psychiatric Hospitals,1950,39.79589743589744
+    Kandang Kerbau Women's & Children's Hospital,77602,Day Surgeries,407927,Community Hospitals,2194,35.370100273473106
+    Kandang Kerbau Women's & Children's Hospital,77602,Day Surgeries,407927,Nursing Homes,18157,4.2739439334691856
+Public Sector Hospital Admissions,514827,Acute Hospitals Admissions,620169,Acute Hospitals,12025,42.813056133056136
+Public Sector Hospital Admissions,514827,Acute Hospitals Admissions,620169,Psychiatric Hospitals,1950,264.01384615384615
+Public Sector Hospital Admissions,514827,Acute Hospitals Admissions,620169,Community Hospitals,2303,223.5462440295267
+Public Sector Hospital Admissions,514827,Acute Hospitals Admissions,620169,Nursing Homes,19201,26.8125097651164
+Public Sector Hospital Admissions,514827,Psychiatric Hospitals Admissions,10037,Acute Hospitals,12025,42.813056133056136
+Public Sector Hospital Admissions,514827,Psychiatric Hospitals Admissions,10037,Psychiatric Hospitals,1950,264.01384615384615
+Public Sector Hospital Admissions,514827,Psychiatric Hospitals Admissions,10037,Community Hospitals,2303,223.5462440295267
+Public Sector Hospital Admissions,514827,Psychiatric Hospitals Admissions,10037,Nursing Homes,19201,26.8125097651164
+Public Sector Hospital Admissions,514827,Community Hospitals Admissions,21539,Acute Hospitals,12025,42.813056133056136
+Public Sector Hospital Admissions,514827,Community Hospitals Admissions,21539,Psychiatric Hospitals,1950,264.01384615384615
+Public Sector Hospital Admissions,514827,Community Hospitals Admissions,21539,Community Hospitals,2303,223.5462440295267
+Public Sector Hospital Admissions,514827,Community Hospitals Admissions,21539,Nursing Homes,19201,26.8125097651164
+Public Sector Hospital Admissions,514827,Specialist Outpatient Clinics,5334841,Acute Hospitals,12025,42.813056133056136
+Public Sector Hospital Admissions,514827,Specialist Outpatient Clinics,5334841,Psychiatric Hospitals,1950,264.01384615384615
+Public Sector Hospital Admissions,514827,Specialist Outpatient Clinics,5334841,Community Hospitals,2303,223.5462440295267
+Public Sector Hospital Admissions,514827,Specialist Outpatient Clinics,5334841,Nursing Homes,19201,26.8125097651164
+Public Sector Hospital Admissions,514827,Accident & Emergency Departments,1048458,Acute Hospitals,12025,42.813056133056136
+Public Sector Hospital Admissions,514827,Accident & Emergency Departments,1048458,Psychiatric Hospitals,1950,264.01384615384615
+Public Sector Hospital Admissions,514827,Accident & Emergency Departments,1048458,Community Hospitals,2303,223.5462440295267
+Public Sector Hospital Admissions,514827,Accident & Emergency Departments,1048458,Nursing Homes,19201,26.8125097651164
+Public Sector Hospital Admissions,514827,Polyclinics,6896041,Acute Hospitals,12025,42.813056133056136
+Public Sector Hospital Admissions,514827,Polyclinics,6896041,Psychiatric Hospitals,1950,264.01384615384615
+Public Sector Hospital Admissions,514827,Polyclinics,6896041,Community Hospitals,2303,223.5462440295267
+Public Sector Hospital Admissions,514827,Polyclinics,6896041,Nursing Homes,19201,26.8125097651164
+Public Sector Hospital Admissions,514827,Dental Clinics,933723,Acute Hospitals,12025,42.813056133056136
+Public Sector Hospital Admissions,514827,Dental Clinics,933723,Psychiatric Hospitals,1950,264.01384615384615
+Public Sector Hospital Admissions,514827,Dental Clinics,933723,Community Hospitals,2303,223.5462440295267
+Public Sector Hospital Admissions,514827,Dental Clinics,933723,Nursing Homes,19201,26.8125097651164
+Public Sector Hospital Admissions,514827,Day Surgeries,438571,Acute Hospitals,12025,42.813056133056136
+Public Sector Hospital Admissions,514827,Day Surgeries,438571,Psychiatric Hospitals,1950,264.01384615384615
+Public Sector Hospital Admissions,514827,Day Surgeries,438571,Community Hospitals,2303,223.5462440295267
+Public Sector Hospital Admissions,514827,Day Surgeries,438571,Nursing Homes,19201,26.8125097651164
+    National University Hospital,71820,Acute Hospitals Admissions,620169,Acute Hospitals,12025,5.972557172557172
+    National University Hospital,71820,Acute Hospitals Admissions,620169,Psychiatric Hospitals,1950,36.83076923076923
+    National University Hospital,71820,Acute Hospitals Admissions,620169,Community Hospitals,2303,31.185410334346503
+    National University Hospital,71820,Acute Hospitals Admissions,620169,Nursing Homes,19201,3.740430185927816
+    National University Hospital,71820,Psychiatric Hospitals Admissions,10037,Acute Hospitals,12025,5.972557172557172
+    National University Hospital,71820,Psychiatric Hospitals Admissions,10037,Psychiatric Hospitals,1950,36.83076923076923
+    National University Hospital,71820,Psychiatric Hospitals Admissions,10037,Community Hospitals,2303,31.185410334346503
+    National University Hospital,71820,Psychiatric Hospitals Admissions,10037,Nursing Homes,19201,3.740430185927816
+    National University Hospital,71820,Community Hospitals Admissions,21539,Acute Hospitals,12025,5.972557172557172
+    National University Hospital,71820,Community Hospitals Admissions,21539,Psychiatric Hospitals,1950,36.83076923076923
+    National University Hospital,71820,Community Hospitals Admissions,21539,Community Hospitals,2303,31.185410334346503
+    National University Hospital,71820,Community Hospitals Admissions,21539,Nursing Homes,19201,3.740430185927816
+    National University Hospital,71820,Specialist Outpatient Clinics,5334841,Acute Hospitals,12025,5.972557172557172
+    National University Hospital,71820,Specialist Outpatient Clinics,5334841,Psychiatric Hospitals,1950,36.83076923076923
+    National University Hospital,71820,Specialist Outpatient Clinics,5334841,Community Hospitals,2303,31.185410334346503
+    National University Hospital,71820,Specialist Outpatient Clinics,5334841,Nursing Homes,19201,3.740430185927816
+    National University Hospital,71820,Accident & Emergency Departments,1048458,Acute Hospitals,12025,5.972557172557172
+    National University Hospital,71820,Accident & Emergency Departments,1048458,Psychiatric Hospitals,1950,36.83076923076923
+    National University Hospital,71820,Accident & Emergency Departments,1048458,Community Hospitals,2303,31.185410334346503
+    National University Hospital,71820,Accident & Emergency Departments,1048458,Nursing Homes,19201,3.740430185927816
+    National University Hospital,71820,Polyclinics,6896041,Acute Hospitals,12025,5.972557172557172
+    National University Hospital,71820,Polyclinics,6896041,Psychiatric Hospitals,1950,36.83076923076923
+    National University Hospital,71820,Polyclinics,6896041,Community Hospitals,2303,31.185410334346503
+    National University Hospital,71820,Polyclinics,6896041,Nursing Homes,19201,3.740430185927816
+    National University Hospital,71820,Dental Clinics,933723,Acute Hospitals,12025,5.972557172557172
+    National University Hospital,71820,Dental Clinics,933723,Psychiatric Hospitals,1950,36.83076923076923
+    National University Hospital,71820,Dental Clinics,933723,Community Hospitals,2303,31.185410334346503
+    National University Hospital,71820,Dental Clinics,933723,Nursing Homes,19201,3.740430185927816
+    National University Hospital,71820,Day Surgeries,438571,Acute Hospitals,12025,5.972557172557172
+    National University Hospital,71820,Day Surgeries,438571,Psychiatric Hospitals,1950,36.83076923076923
+    National University Hospital,71820,Day Surgeries,438571,Community Hospitals,2303,31.185410334346503
+    National University Hospital,71820,Day Surgeries,438571,Nursing Homes,19201,3.740430185927816
+    Singapore General Hospital,76892,Acute Hospitals Admissions,620169,Acute Hospitals,12025,6.394345114345114
+    Singapore General Hospital,76892,Acute Hospitals Admissions,620169,Psychiatric Hospitals,1950,39.43179487179487
+    Singapore General Hospital,76892,Acute Hospitals Admissions,620169,Community Hospitals,2303,33.38775510204081
+    Singapore General Hospital,76892,Acute Hospitals Admissions,620169,Nursing Homes,19201,4.004583094630488
+    Singapore General Hospital,76892,Psychiatric Hospitals Admissions,10037,Acute Hospitals,12025,6.394345114345114
+    Singapore General Hospital,76892,Psychiatric Hospitals Admissions,10037,Psychiatric Hospitals,1950,39.43179487179487
+    Singapore General Hospital,76892,Psychiatric Hospitals Admissions,10037,Community Hospitals,2303,33.38775510204081
+    Singapore General Hospital,76892,Psychiatric Hospitals Admissions,10037,Nursing Homes,19201,4.004583094630488
+    Singapore General Hospital,76892,Community Hospitals Admissions,21539,Acute Hospitals,12025,6.394345114345114
+    Singapore General Hospital,76892,Community Hospitals Admissions,21539,Psychiatric Hospitals,1950,39.43179487179487
+    Singapore General Hospital,76892,Community Hospitals Admissions,21539,Community Hospitals,2303,33.38775510204081
+    Singapore General Hospital,76892,Community Hospitals Admissions,21539,Nursing Homes,19201,4.004583094630488
+    Singapore General Hospital,76892,Specialist Outpatient Clinics,5334841,Acute Hospitals,12025,6.394345114345114
+    Singapore General Hospital,76892,Specialist Outpatient Clinics,5334841,Psychiatric Hospitals,1950,39.43179487179487
+    Singapore General Hospital,76892,Specialist Outpatient Clinics,5334841,Community Hospitals,2303,33.38775510204081
+    Singapore General Hospital,76892,Specialist Outpatient Clinics,5334841,Nursing Homes,19201,4.004583094630488
+    Singapore General Hospital,76892,Accident & Emergency Departments,1048458,Acute Hospitals,12025,6.394345114345114
+    Singapore General Hospital,76892,Accident & Emergency Departments,1048458,Psychiatric Hospitals,1950,39.43179487179487
+    Singapore General Hospital,76892,Accident & Emergency Departments,1048458,Community Hospitals,2303,33.38775510204081
+    Singapore General Hospital,76892,Accident & Emergency Departments,1048458,Nursing Homes,19201,4.004583094630488
+    Singapore General Hospital,76892,Polyclinics,6896041,Acute Hospitals,12025,6.394345114345114
+    Singapore General Hospital,76892,Polyclinics,6896041,Psychiatric Hospitals,1950,39.43179487179487
+    Singapore General Hospital,76892,Polyclinics,6896041,Community Hospitals,2303,33.38775510204081
+    Singapore General Hospital,76892,Polyclinics,6896041,Nursing Homes,19201,4.004583094630488
+    Singapore General Hospital,76892,Dental Clinics,933723,Acute Hospitals,12025,6.394345114345114
+    Singapore General Hospital,76892,Dental Clinics,933723,Psychiatric Hospitals,1950,39.43179487179487
+    Singapore General Hospital,76892,Dental Clinics,933723,Community Hospitals,2303,33.38775510204081
+    Singapore General Hospital,76892,Dental Clinics,933723,Nursing Homes,19201,4.004583094630488
+    Singapore General Hospital,76892,Day Surgeries,438571,Acute Hospitals,12025,6.394345114345114
+    Singapore General Hospital,76892,Day Surgeries,438571,Psychiatric Hospitals,1950,39.43179487179487
+    Singapore General Hospital,76892,Day Surgeries,438571,Community Hospitals,2303,33.38775510204081
+    Singapore General Hospital,76892,Day Surgeries,438571,Nursing Homes,19201,4.004583094630488
+    Tan Tock Seng Hospital,60434,Acute Hospitals Admissions,620169,Acute Hospitals,12025,5.025696465696465
+    Tan Tock Seng Hospital,60434,Acute Hospitals Admissions,620169,Psychiatric Hospitals,1950,30.991794871794877
+    Tan Tock Seng Hospital,60434,Acute Hospitals Admissions,620169,Community Hospitals,2303,26.241424229266176
+    Tan Tock Seng Hospital,60434,Acute Hospitals Admissions,620169,Nursing Homes,19201,3.147440237487631
+    Tan Tock Seng Hospital,60434,Psychiatric Hospitals Admissions,10037,Acute Hospitals,12025,5.025696465696465
+    Tan Tock Seng Hospital,60434,Psychiatric Hospitals Admissions,10037,Psychiatric Hospitals,1950,30.991794871794877
+    Tan Tock Seng Hospital,60434,Psychiatric Hospitals Admissions,10037,Community Hospitals,2303,26.241424229266176
+    Tan Tock Seng Hospital,60434,Psychiatric Hospitals Admissions,10037,Nursing Homes,19201,3.147440237487631
+    Tan Tock Seng Hospital,60434,Community Hospitals Admissions,21539,Acute Hospitals,12025,5.025696465696465
+    Tan Tock Seng Hospital,60434,Community Hospitals Admissions,21539,Psychiatric Hospitals,1950,30.991794871794877
+    Tan Tock Seng Hospital,60434,Community Hospitals Admissions,21539,Community Hospitals,2303,26.241424229266176
+    Tan Tock Seng Hospital,60434,Community Hospitals Admissions,21539,Nursing Homes,19201,3.147440237487631
+    Tan Tock Seng Hospital,60434,Specialist Outpatient Clinics,5334841,Acute Hospitals,12025,5.025696465696465
+    Tan Tock Seng Hospital,60434,Specialist Outpatient Clinics,5334841,Psychiatric Hospitals,1950,30.991794871794877
+    Tan Tock Seng Hospital,60434,Specialist Outpatient Clinics,5334841,Community Hospitals,2303,26.241424229266176
+    Tan Tock Seng Hospital,60434,Specialist Outpatient Clinics,5334841,Nursing Homes,19201,3.147440237487631
+    Tan Tock Seng Hospital,60434,Accident & Emergency Departments,1048458,Acute Hospitals,12025,5.025696465696465
+    Tan Tock Seng Hospital,60434,Accident & Emergency Departments,1048458,Psychiatric Hospitals,1950,30.991794871794877
+    Tan Tock Seng Hospital,60434,Accident & Emergency Departments,1048458,Community Hospitals,2303,26.241424229266176
+    Tan Tock Seng Hospital,60434,Accident & Emergency Departments,1048458,Nursing Homes,19201,3.147440237487631
+    Tan Tock Seng Hospital,60434,Polyclinics,6896041,Acute Hospitals,12025,5.025696465696465
+    Tan Tock Seng Hospital,60434,Polyclinics,6896041,Psychiatric Hospitals,1950,30.991794871794877
+    Tan Tock Seng Hospital,60434,Polyclinics,6896041,Community Hospitals,2303,26.241424229266176
+    Tan Tock Seng Hospital,60434,Polyclinics,6896041,Nursing Homes,19201,3.147440237487631
+    Tan Tock Seng Hospital,60434,Dental Clinics,933723,Acute Hospitals,12025,5.025696465696465
+    Tan Tock Seng Hospital,60434,Dental Clinics,933723,Psychiatric Hospitals,1950,30.991794871794877
+    Tan Tock Seng Hospital,60434,Dental Clinics,933723,Community Hospitals,2303,26.241424229266176
+    Tan Tock Seng Hospital,60434,Dental Clinics,933723,Nursing Homes,19201,3.147440237487631
+    Tan Tock Seng Hospital,60434,Day Surgeries,438571,Acute Hospitals,12025,5.025696465696465
+    Tan Tock Seng Hospital,60434,Day Surgeries,438571,Psychiatric Hospitals,1950,30.991794871794877
+    Tan Tock Seng Hospital,60434,Day Surgeries,438571,Community Hospitals,2303,26.241424229266176
+    Tan Tock Seng Hospital,60434,Day Surgeries,438571,Nursing Homes,19201,3.147440237487631
+    Institute Of Mental Health / Woodbridge Hospital,10037,Acute Hospitals Admissions,620169,Acute Hospitals,12025,0.8346777546777546
+    Institute Of Mental Health / Woodbridge Hospital,10037,Acute Hospitals Admissions,620169,Psychiatric Hospitals,1950,5.147179487179487
+    Institute Of Mental Health / Woodbridge Hospital,10037,Acute Hospitals Admissions,620169,Community Hospitals,2303,4.358228397742075
+    Institute Of Mental Health / Woodbridge Hospital,10037,Acute Hospitals Admissions,620169,Nursing Homes,19201,0.5227331909796364
+    Institute Of Mental Health / Woodbridge Hospital,10037,Psychiatric Hospitals Admissions,10037,Acute Hospitals,12025,0.8346777546777546
+    Institute Of Mental Health / Woodbridge Hospital,10037,Psychiatric Hospitals Admissions,10037,Psychiatric Hospitals,1950,5.147179487179487
+    Institute Of Mental Health / Woodbridge Hospital,10037,Psychiatric Hospitals Admissions,10037,Community Hospitals,2303,4.358228397742075
+    Institute Of Mental Health / Woodbridge Hospital,10037,Psychiatric Hospitals Admissions,10037,Nursing Homes,19201,0.5227331909796364
+    Institute Of Mental Health / Woodbridge Hospital,10037,Community Hospitals Admissions,21539,Acute Hospitals,12025,0.8346777546777546
+    Institute Of Mental Health / Woodbridge Hospital,10037,Community Hospitals Admissions,21539,Psychiatric Hospitals,1950,5.147179487179487
+    Institute Of Mental Health / Woodbridge Hospital,10037,Community Hospitals Admissions,21539,Community Hospitals,2303,4.358228397742075
+    Institute Of Mental Health / Woodbridge Hospital,10037,Community Hospitals Admissions,21539,Nursing Homes,19201,0.5227331909796364
+    Institute Of Mental Health / Woodbridge Hospital,10037,Specialist Outpatient Clinics,5334841,Acute Hospitals,12025,0.8346777546777546
+    Institute Of Mental Health / Woodbridge Hospital,10037,Specialist Outpatient Clinics,5334841,Psychiatric Hospitals,1950,5.147179487179487
+    Institute Of Mental Health / Woodbridge Hospital,10037,Specialist Outpatient Clinics,5334841,Community Hospitals,2303,4.358228397742075
+    Institute Of Mental Health / Woodbridge Hospital,10037,Specialist Outpatient Clinics,5334841,Nursing Homes,19201,0.5227331909796364
+    Institute Of Mental Health / Woodbridge Hospital,10037,Accident & Emergency Departments,1048458,Acute Hospitals,12025,0.8346777546777546
+    Institute Of Mental Health / Woodbridge Hospital,10037,Accident & Emergency Departments,1048458,Psychiatric Hospitals,1950,5.147179487179487
+    Institute Of Mental Health / Woodbridge Hospital,10037,Accident & Emergency Departments,1048458,Community Hospitals,2303,4.358228397742075
+    Institute Of Mental Health / Woodbridge Hospital,10037,Accident & Emergency Departments,1048458,Nursing Homes,19201,0.5227331909796364
+    Institute Of Mental Health / Woodbridge Hospital,10037,Polyclinics,6896041,Acute Hospitals,12025,0.8346777546777546
+    Institute Of Mental Health / Woodbridge Hospital,10037,Polyclinics,6896041,Psychiatric Hospitals,1950,5.147179487179487
+    Institute Of Mental Health / Woodbridge Hospital,10037,Polyclinics,6896041,Community Hospitals,2303,4.358228397742075
+    Institute Of Mental Health / Woodbridge Hospital,10037,Polyclinics,6896041,Nursing Homes,19201,0.5227331909796364
+    Institute Of Mental Health / Woodbridge Hospital,10037,Dental Clinics,933723,Acute Hospitals,12025,0.8346777546777546
+    Institute Of Mental Health / Woodbridge Hospital,10037,Dental Clinics,933723,Psychiatric Hospitals,1950,5.147179487179487
+    Institute Of Mental Health / Woodbridge Hospital,10037,Dental Clinics,933723,Community Hospitals,2303,4.358228397742075
+    Institute Of Mental Health / Woodbridge Hospital,10037,Dental Clinics,933723,Nursing Homes,19201,0.5227331909796364
+    Institute Of Mental Health / Woodbridge Hospital,10037,Day Surgeries,438571,Acute Hospitals,12025,0.8346777546777546
+    Institute Of Mental Health / Woodbridge Hospital,10037,Day Surgeries,438571,Psychiatric Hospitals,1950,5.147179487179487
+    Institute Of Mental Health / Woodbridge Hospital,10037,Day Surgeries,438571,Community Hospitals,2303,4.358228397742075
+    Institute Of Mental Health / Woodbridge Hospital,10037,Day Surgeries,438571,Nursing Homes,19201,0.5227331909796364
+    Kandang Kerbau Women's & Children's Hospital,76588,Acute Hospitals Admissions,620169,Acute Hospitals,12025,6.3690644490644495
+    Kandang Kerbau Women's & Children's Hospital,76588,Acute Hospitals Admissions,620169,Psychiatric Hospitals,1950,39.27589743589744
+    Kandang Kerbau Women's & Children's Hospital,76588,Acute Hospitals Admissions,620169,Community Hospitals,2303,33.255753365175856
+    Kandang Kerbau Women's & Children's Hospital,76588,Acute Hospitals Admissions,620169,Nursing Homes,19201,3.988750585906984
+    Kandang Kerbau Women's & Children's Hospital,76588,Psychiatric Hospitals Admissions,10037,Acute Hospitals,12025,6.3690644490644495
+    Kandang Kerbau Women's & Children's Hospital,76588,Psychiatric Hospitals Admissions,10037,Psychiatric Hospitals,1950,39.27589743589744
+    Kandang Kerbau Women's & Children's Hospital,76588,Psychiatric Hospitals Admissions,10037,Community Hospitals,2303,33.255753365175856
+    Kandang Kerbau Women's & Children's Hospital,76588,Psychiatric Hospitals Admissions,10037,Nursing Homes,19201,3.988750585906984
+    Kandang Kerbau Women's & Children's Hospital,76588,Community Hospitals Admissions,21539,Acute Hospitals,12025,6.3690644490644495
+    Kandang Kerbau Women's & Children's Hospital,76588,Community Hospitals Admissions,21539,Psychiatric Hospitals,1950,39.27589743589744
+    Kandang Kerbau Women's & Children's Hospital,76588,Community Hospitals Admissions,21539,Community Hospitals,2303,33.255753365175856
+    Kandang Kerbau Women's & Children's Hospital,76588,Community Hospitals Admissions,21539,Nursing Homes,19201,3.988750585906984
+    Kandang Kerbau Women's & Children's Hospital,76588,Specialist Outpatient Clinics,5334841,Acute Hospitals,12025,6.3690644490644495
+    Kandang Kerbau Women's & Children's Hospital,76588,Specialist Outpatient Clinics,5334841,Psychiatric Hospitals,1950,39.27589743589744
+    Kandang Kerbau Women's & Children's Hospital,76588,Specialist Outpatient Clinics,5334841,Community Hospitals,2303,33.255753365175856
+    Kandang Kerbau Women's & Children's Hospital,76588,Specialist Outpatient Clinics,5334841,Nursing Homes,19201,3.988750585906984
+    Kandang Kerbau Women's & Children's Hospital,76588,Accident & Emergency Departments,1048458,Acute Hospitals,12025,6.3690644490644495
+    Kandang Kerbau Women's & Children's Hospital,76588,Accident & Emergency Departments,1048458,Psychiatric Hospitals,1950,39.27589743589744
+    Kandang Kerbau Women's & Children's Hospital,76588,Accident & Emergency Departments,1048458,Community Hospitals,2303,33.255753365175856
+    Kandang Kerbau Women's & Children's Hospital,76588,Accident & Emergency Departments,1048458,Nursing Homes,19201,3.988750585906984
+    Kandang Kerbau Women's & Children's Hospital,76588,Polyclinics,6896041,Acute Hospitals,12025,6.3690644490644495
+    Kandang Kerbau Women's & Children's Hospital,76588,Polyclinics,6896041,Psychiatric Hospitals,1950,39.27589743589744
+    Kandang Kerbau Women's & Children's Hospital,76588,Polyclinics,6896041,Community Hospitals,2303,33.255753365175856
+    Kandang Kerbau Women's & Children's Hospital,76588,Polyclinics,6896041,Nursing Homes,19201,3.988750585906984
+    Kandang Kerbau Women's & Children's Hospital,76588,Dental Clinics,933723,Acute Hospitals,12025,6.3690644490644495
+    Kandang Kerbau Women's & Children's Hospital,76588,Dental Clinics,933723,Psychiatric Hospitals,1950,39.27589743589744
+    Kandang Kerbau Women's & Children's Hospital,76588,Dental Clinics,933723,Community Hospitals,2303,33.255753365175856
+    Kandang Kerbau Women's & Children's Hospital,76588,Dental Clinics,933723,Nursing Homes,19201,3.988750585906984
+    Kandang Kerbau Women's & Children's Hospital,76588,Day Surgeries,438571,Acute Hospitals,12025,6.3690644490644495
+    Kandang Kerbau Women's & Children's Hospital,76588,Day Surgeries,438571,Psychiatric Hospitals,1950,39.27589743589744
+    Kandang Kerbau Women's & Children's Hospital,76588,Day Surgeries,438571,Community Hospitals,2303,33.255753365175856
+    Kandang Kerbau Women's & Children's Hospital,76588,Day Surgeries,438571,Nursing Homes,19201,3.988750585906984
