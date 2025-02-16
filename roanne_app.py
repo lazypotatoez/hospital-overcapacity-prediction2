@@ -8,7 +8,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 st.title("Overcapacity and Admissions Prediction App")
 
 # Load the saved model
-model = load_model('lstm_model.h5')
+model = load_model('roanne_lstm_model.h5')
 st.write("Model loaded successfully.")
 
 # Upload dataset
