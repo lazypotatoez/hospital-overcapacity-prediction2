@@ -46,9 +46,9 @@ def main():
     # Create sample data
     data = create_sample_data()
 
-    # Sidebar filters
-    st.sidebar.header("Filters")
-    selected_years = st.sidebar.multiselect(
+    # Filter options moved below the title
+    st.header("Filters")
+    selected_years = st.multiselect(
         "Select Years",
         options=sorted(data['Year'].unique()),
         default=sorted(data['Year'].unique())
