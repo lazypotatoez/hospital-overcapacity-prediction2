@@ -1,3 +1,9 @@
+import streamlit as st
+import pandas as pd
+import numpy as np
+import plotly.graph_objects as go
+
+
 def create_sample_data():
     """Create sample data for demonstration"""
     # Generate dates from 2019 to 2023
