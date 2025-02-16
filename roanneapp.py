@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
+from sklearn.ensemble import RandomForestRegressor  # Example model for demonstration
+import joblib  # For loading pre-trained models
 
 
 def create_sample_data():
@@ -39,14 +41,72 @@ def create_sample_data():
     return data
 
 
+def load_model():
+    """Load the pre-trained model"""
+    # Replace this with the path to your model file
+    model = joblib.load("hospital_capacity_model.pkl")  # Example file
+    return model
+
+
+def predict_capacity(model, input_data):
+    """Make predictions using the model"""
+    predictions = model.predict(input_data)
+    return predictions
+
+
 def main():
     st.title("🏥 Hospital Capacity Prediction")
-    st.markdown("Analyzing historical hospital capacity trends and predictions")
+    st.markdown("Analyzing historical hospital capacity trends and making predictions")
 
     # Create sample data
     data = create_sample_data()
 
-    # Filter options moved below the title
+    # Section: Upload Testing Data
+    st.sidebar.subheader("Upload Testing Data")
+    uploaded_file = st.sidebar.file_uploader("Upload a CSV file", type=["csv"])
+    if uploaded_file is not None:
+        test_data = pd.read_csv(uploaded_file)
+
+        st.subheader("Uploaded Testing Data")
+        st.write(test_data.head())
+
+        # Ensure required columns are present in the uploaded file
+        required_columns = ['Date', 'Other_Features']  # Replace with actual features expected by your model
+        if all(col in test_data.columns for col in required_columns):
+            # Load pre-trained model
+            model = load_model()
+
+            # Prepare data for prediction
+            features = test_data.drop(['Date'], axis=1)  # Drop non-feature columns
+            predictions = predict_capacity(model, features)
+
+            # Add predictions to the DataFrame
+            test_data['Predicted_Capacity'] = predictions
+            test_data['Predicted_Overcapacity'] = test_data['Predicted_Capacity'] > 80
+
+            st.subheader("Predicted Results")
+            st.write(test_data)
+
+            # Visualize predictions
+            fig = go.Figure()
+            fig.add_trace(go.Scatter(
+                x=pd.to_datetime(test_data['Date']),
+                y=test_data['Predicted_Capacity'],
+                name='Predicted Capacity',
+                line=dict(color='red', width=2)
+            ))
+
+            fig.update_layout(
+                xaxis_title="Date",
+                yaxis_title="Predicted Capacity (%)",
+                hovermode='x unified'
+            )
+
+            st.plotly_chart(fig, use_container_width=True)
+        else:
+            st.error(f"Uploaded file must contain the following columns: {', '.join(required_columns)}")
+
+    # Section: Sample Data
     st.subheader("Filters")
     selected_years = st.multiselect(
         "Select Years",
@@ -122,33 +182,6 @@ def main():
         accuracy = (filtered_data['Actual_Overcapacity'] == \
                    filtered_data['Predicted_Overcapacity']).mean() * 100
         st.metric("Model Accuracy", f"{accuracy:.1f}%")
-
-    # Monthly Analysis
-    st.subheader("Monthly Average Capacity")
-    monthly_avg = filtered_data.groupby('Month')[['Actual_Capacity', 'Predicted_Capacity']].mean()
-    monthly_avg = monthly_avg.reindex(pd.date_range(start='2023-01-01', periods=12, freq='M').strftime('%B'))
-
-    fig_monthly = go.Figure()
-    fig_monthly.add_trace(go.Bar(
-        x=monthly_avg.index,
-        y=monthly_avg['Actual_Capacity'],
-        name='Actual',
-        marker_color='blue'
-    ))
-    fig_monthly.add_trace(go.Bar(
-        x=monthly_avg.index,
-        y=monthly_avg['Predicted_Capacity'],
-        name='Predicted',
-        marker_color='red'
-    ))
-
-    fig_monthly.update_layout(
-        barmode='group',
-        xaxis_title="Month",
-        yaxis_title="Average Capacity (%)"
-    )
-
-    st.plotly_chart(fig_monthly, use_container_width=True)
 
 
 if __name__ == "__main__":
