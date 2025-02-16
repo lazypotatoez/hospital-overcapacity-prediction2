@@ -15,28 +15,14 @@ def create_sample_data():
     np.random.seed(42)  # For reproducibility
     data = pd.DataFrame({
         'Date': dates,
-        'Actual_Capacity': np.random.normal(75, 15, len(dates)),  # Mean of 75% with some variation
-        'Year': dates.year,
-        'Month': dates.month_name()
+        'Admissions': np.random.randint(400000, 700000, len(dates)),
+        'Number of Beds': np.random.randint(1000, 20000, len(dates)),
+        'Admissions per Bed': np.random.uniform(20, 50, len(dates)),
+        'Year': dates.year
     })
 
-    # Add some seasonal patterns
-    data['Actual_Capacity'] += np.sin(data.index * 2 * np.pi / 12) * 5
-
-    # Add trend (slight increase over time)
-    data['Actual_Capacity'] += data.index * 0.03
-
-    # Add predicted values with some deviation from actual
-    data['Predicted_Capacity'] = data['Actual_Capacity'] + np.random.normal(0, 5, len(dates))
-
-    # Ensure values are between 0 and 100
-    data['Actual_Capacity'] = data['Actual_Capacity'].clip(0, 100)
-    data['Predicted_Capacity'] = data['Predicted_Capacity'].clip(0, 100)
-
-    # Add overcapacity flags
-    threshold = 80
-    data['Actual_Overcapacity'] = data['Actual_Capacity'] > threshold
-    data['Predicted_Overcapacity'] = data['Predicted_Capacity'] > threshold
+    # Add overcapacity flag for demonstration
+    data['Overcapacity'] = (data['Admissions per Bed'] > 30).astype(int)
 
     return data
 
@@ -51,7 +37,7 @@ def load_trained_model():
         return None
 
 
-def predict_capacity(model, input_data):
+def predict_overcapacity(model, input_data):
     """Make predictions using the model"""
     try:
         # Select relevant features
@@ -65,7 +51,7 @@ def predict_capacity(model, input_data):
 
 def main():
     st.title("Hospital Capacity Prediction")
-    st.markdown("Analyzing historical hospital capacity trends and predictions")
+    st.markdown("Analyzing historical hospital capacity trends and predicting overcapacity.")
 
     # Create sample data
     data = create_sample_data()
@@ -92,14 +78,13 @@ def main():
         st.write(test_data.head())
 
         # Ensure columns match expected input
-        required_columns = ['Date', 'Actual_Capacity']  # Adjust to your model's input requirements
+        required_columns = ['Admissions', 'Number of Beds', 'Admissions per Bed']
         if all(col in test_data.columns for col in required_columns):
             # Load pre-trained model
             model = load_trained_model()
             if model is not None:
-                # Prepare data for prediction
-                features = test_data[['Actual_Capacity']]  # Adjust columns as per your model
-                test_data['Overcapacity_Prediction'] = model.predict(features)
+                # Make predictions
+                test_data['Overcapacity_Prediction'] = predict_overcapacity(model, test_data)
                 test_data['Overcapacity_Prediction'] = test_data['Overcapacity_Prediction'].apply(
                     lambda x: "Yes" if x == 1 else "No"
                 )
@@ -110,13 +95,13 @@ def main():
                 # Visualize the results
                 fig = go.Figure()
                 fig.add_trace(go.Bar(
-                    x=test_data['Date'],
-                    y=test_data['Actual_Capacity'],
-                    name="Actual Capacity"
+                    x=test_data['Facility Type'],
+                    y=test_data['Admissions'],
+                    name="Admissions"
                 ))
                 fig.add_trace(go.Scatter(
-                    x=test_data['Date'],
-                    y=[80] * len(test_data),
+                    x=test_data['Facility Type'],
+                    y=[30] * len(test_data),  # Example threshold for overcapacity
                     mode='lines',
                     name="Overcapacity Threshold",
                     line=dict(color="red", dash="dash")
@@ -124,8 +109,8 @@ def main():
 
                 fig.update_layout(
                     title="Predicted Overcapacity Results",
-                    xaxis_title="Date",
-                    yaxis_title="Capacity (%)",
+                    xaxis_title="Facility Type",
+                    yaxis_title="Admissions per Bed",
                     hovermode="x unified"
                 )
 
@@ -141,33 +126,25 @@ def main():
 
         fig = go.Figure()
 
-        # Add actual capacity line
+        # Add admissions line
         fig.add_trace(go.Scatter(
             x=filtered_data['Date'],
-            y=filtered_data['Actual_Capacity'],
-            name='Actual Capacity',
+            y=filtered_data['Admissions'],
+            name='Admissions',
             line=dict(color='blue', width=2)
-        ))
-
-        # Add predicted capacity line
-        fig.add_trace(go.Scatter(
-            x=filtered_data['Date'],
-            y=filtered_data['Predicted_Capacity'],
-            name='Predicted Capacity',
-            line=dict(color='red', width=2, dash='dash')
         ))
 
         # Add overcapacity threshold line
         fig.add_trace(go.Scatter(
             x=filtered_data['Date'],
-            y=[80] * len(filtered_data),
+            y=[30] * len(filtered_data),  # Example threshold
             name='Overcapacity Threshold',
-            line=dict(color='yellow', width=1, dash='dot')
+            line=dict(color='red', width=1, dash='dot')
         ))
 
         fig.update_layout(
             xaxis_title="Date",
-            yaxis_title="Capacity (%)",
+            yaxis_title="Admissions per Bed",
             hovermode='x unified',
             legend=dict(
                 yanchor="top",
@@ -183,40 +160,30 @@ def main():
         st.subheader("Key Metrics")
 
         # Calculate metrics
-        avg_actual = filtered_data['Actual_Capacity'].mean()
-        avg_predicted = filtered_data['Predicted_Capacity'].mean()
-        overcapacity_days_actual = filtered_data['Actual_Overcapacity'].sum()
-        overcapacity_days_predicted = filtered_data['Predicted_Overcapacity'].sum()
+        avg_admissions = filtered_data['Admissions'].mean()
+        overcapacity_days = filtered_data['Overcapacity'].sum()
 
         # Display metrics
-        st.metric("Average Actual Capacity", f"{avg_actual:.1f}%")
-        st.metric("Average Predicted Capacity", f"{avg_predicted:.1f}%")
-        st.metric("Days Over Capacity (Actual)", int(overcapacity_days_actual))
-        st.metric("Days Over Capacity (Predicted)", int(overcapacity_days_predicted))
+        st.metric("Average Admissions", f"{avg_admissions:.1f}")
+        st.metric("Days Over Capacity", int(overcapacity_days))
 
     # Monthly Analysis
-    st.subheader("Monthly Average Capacity")
-    monthly_avg = filtered_data.groupby('Month')[['Actual_Capacity', 'Predicted_Capacity']].mean()
+    st.subheader("Monthly Average Admissions per Bed")
+    monthly_avg = filtered_data.groupby('Month')[['Admissions per Bed']].mean()
     monthly_avg = monthly_avg.reindex(pd.date_range(start='2023-01-01', periods=12, freq='M').strftime('%B'))
 
     fig_monthly = go.Figure()
     fig_monthly.add_trace(go.Bar(
         x=monthly_avg.index,
-        y=monthly_avg['Actual_Capacity'],
-        name='Actual',
+        y=monthly_avg['Admissions per Bed'],
+        name='Admissions per Bed',
         marker_color='blue'
-    ))
-    fig_monthly.add_trace(go.Bar(
-        x=monthly_avg.index,
-        y=monthly_avg['Predicted_Capacity'],
-        name='Predicted',
-        marker_color='red'
     ))
 
     fig_monthly.update_layout(
         barmode='group',
         xaxis_title="Month",
-        yaxis_title="Average Capacity (%)"
+        yaxis_title="Average Admissions per Bed"
     )
 
     st.plotly_chart(fig_monthly, use_container_width=True)
