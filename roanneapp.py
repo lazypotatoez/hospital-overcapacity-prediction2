@@ -48,8 +48,15 @@ if uploaded_file is not None:
         # Apply preprocessing
         test_data_transformed = preprocessor.fit_transform(test_data)  # Transform test data
 
+        # Debugging: Check the shape of the transformed data
+        st.write("Shape of test_data_transformed:", test_data_transformed.shape)
+
         # Ensure correct format for LSTM input (3D)
-        X_test = np.expand_dims(test_data_transformed, axis=1)  # Convert to 3D for LSTM
+        if len(test_data_transformed.shape) == 2:  # Ensure it is 2D
+            X_test = np.expand_dims(test_data_transformed, axis=1)  # Convert to 3D for LSTM
+        else:
+            st.error("Preprocessed test data is not 2D. Please check your test file.")
+            st.stop()
 
         # Predict with the model
         predictions = model.predict(X_test)
