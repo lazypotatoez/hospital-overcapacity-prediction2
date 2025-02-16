@@ -53,7 +53,9 @@ if uploaded_file is not None:
 
         # Ensure correct format for LSTM input (3D)
         if len(test_data_transformed.shape) == 2:  # Ensure it is 2D
-            X_test = np.expand_dims(test_data_transformed, axis=1)  # Convert to 3D for LSTM
+            # LSTM expects shape (samples, timesteps, features)
+            X_test = np.expand_dims(test_data_transformed, axis=1)  # Add timestep dimension
+            st.write("Shape of X_test after expanding dimensions:", X_test.shape)
         else:
             st.error("Preprocessed test data is not 2D. Please check your test file.")
             st.stop()
